@@ -1,5 +1,5 @@
 ---
-title: JAVA Null 비교
+title: JAVA Null 체크를 위한 .equals와 == 연산자 비교
 layout: single
 author_profile: true
 read_time: true
