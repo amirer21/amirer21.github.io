@@ -9,7 +9,7 @@ main:
   - title: "연도별 포스트"
     url: /posts/
   - title: "test"
-    url: /posts/2022/
+    url: /test/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
