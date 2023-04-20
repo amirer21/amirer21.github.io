@@ -6,6 +6,9 @@
 
 > localhost:4000
 
+## 프로필 설정
+> _config.yml 파일
+
 #
 
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
