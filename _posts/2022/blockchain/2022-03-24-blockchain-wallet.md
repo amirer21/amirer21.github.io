@@ -1,5 +1,5 @@
 ---
-title: Geth, Remix(Web IDE), Metamask(Wallet) 연동
+title: Blockchain 토큰 만들기 & 지갑 전송 실습 예제
 layout: single
 author_profile: true
 read_time: true
