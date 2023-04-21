@@ -22,6 +22,8 @@ last_modified_at: '2022-03-24 14:00:00 +0800'
 
 # Geth, Remix(Web IDE), Metamask(Wallet) 연동
 
+- 주의 : 아래 예제는 로컬 환경에서 Geth 구동한 실습 예제입니다.
+
 ## 1. Geth 설치
 
 ### (1) Genesis block 생성 (genesis.json)
