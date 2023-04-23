@@ -1,5 +1,5 @@
 ---
-title: 안드로이드 file path 가져오기
+title: 안드로이드 file 권한 체크, 부여 및 내부 파일 정보 가져오기
 layout: single
 author_profile: true
 read_time: true
@@ -11,7 +11,7 @@ categories:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: 안드로이드 file path 가져오기
+description: 안드로이드 file 권한 부여, 파일 정보 가져오기
 article_tag1: Android
 article_tag2: file
 article_tag3: 
@@ -21,7 +21,7 @@ meta_keywords: Android, file
 last_modified_at: '2020-06-16 10:00:00 +0800'
 ---
 
-## 안드로이드 file path 가져오기
+## 안드로이드 권한 체크 & 파일 정보 가져오기
 
 파일 관련 접근 시 권한 문제가 발생할 수 있다.
 이 경우 권한부여 여부확인를 확인하는 기능을 추가한다.
