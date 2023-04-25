@@ -217,9 +217,9 @@ public Object invokeBeanMethod(ApplicationContext applicationContext, Object ser
 			return null;
 		}
 	} catch (InvocationTargetException ie) {
-		if(ie.getTargetException().getClass().equals(bvs.common.util.AjaxMessageException.class)){
+		if(ie.getTargetException().getClass().equals(test.common.util.AjaxMessageException.class)){
 			return ie.getTargetException().getMessage() == null ? "에러발생" : ie.getTargetException().getMessage();
-		}else if(ie.getTargetException().getClass().equals(bvs.common.util.AjaxMapException.class)){
+		}else if(ie.getTargetException().getClass().equals(test.common.util.AjaxMapException.class)){
 			Map<String, Object> errMap = new HashMap<String, Object>();
 			errMap.put("RESULT", "ERROR");
 			errMap.put("CODE", "52");
