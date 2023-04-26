@@ -1,5 +1,5 @@
 ---
-title: Blockchain 토큰 만들기 & 지갑 전송 실습 예제
+title: Blockchain ERC20 토큰 만들기 & 지갑 전송 실습 예제
 layout: single
 author_profile: true
 read_time: true
@@ -20,9 +20,11 @@ meta_keywords: geth, remix, metamask
 last_modified_at: '2022-03-24 14:00:00 +0800'
 ---
 
-# Geth, Remix(Web IDE), Metamask(Wallet) 연동
+## ERC20 토큰 만들기 & 지갑 전송 실습 예제
 
-- 주의 : 아래 예제는 로컬 환경에서 Geth 구동한 실습 예제입니다.
+### Geth, Remix(Web IDE), Metamask(Wallet) 연동
+
+##### - 주의 : 아래 예제는 로컬 환경에서 Geth 구동한 실습 예제입니다. 지갑에 대한 주소, 비밀번호 등은 안전한 방식으로 보관하여야 합니다. 실습 진행에 있어서 경제적 손실이 발생하는 경우 책임지지 않습니다.
 
 ## 1. Geth 설치
 

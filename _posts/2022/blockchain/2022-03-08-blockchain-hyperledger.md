@@ -1,5 +1,5 @@
 ---
-title: Blockchain 토큰 만들기 & 지갑 전송 실습 예제
+title: Blockchain 하이퍼레저(hyperledger) Error
 layout: single
 author_profile: true
 read_time: true
@@ -11,12 +11,12 @@ categories:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: Geth, Remix(Web IDE), Metamask(Wallet) 연동
+description: Blockchain 하이퍼레저(hyperledger) Error
 article_tag1: blockchain
-article_tag2: geth
-article_tag3: remix
+article_tag2: hyperledger
+article_tag3: error
 article_section: blockchain
-meta_keywords: geth, remix, metamask
+meta_keywords: hyperledger, blockchain, error
 last_modified_at: '2022-03-24 14:00:00 +0800'
 ---
 
