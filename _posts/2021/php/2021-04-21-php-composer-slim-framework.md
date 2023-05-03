@@ -158,10 +158,10 @@ Php 삭제명령어를 하여도 php 버전이 나온다…
 php7.0 인 경우
 > sudo apt-get install php7.0
 
-최신 7.1,7.2,7.3,7.4 버전으로 전환 하려면 먼저 이전 PHP 버전을 비활성화하십시오 .
+최신 7.1,7.2,7.3,7.4 버전으로 전환 하려면 먼저 이전 PHP 버전을 비활성화
 > sudo a2dismod php7.0
 
-그런 다음 PHP 7.2를 활성화합니다 .
+그런 다음 PHP 7.2를 활성화
 > sudo a2enmod php7.2
 
 apache2 재시작

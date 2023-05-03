@@ -14,7 +14,7 @@ toc_label: 목차
 description: JAVA properties 메시징 처리하기
 article_tag1: Properties
 article_tag2: Message
-article_tag3: a
+article_tag3: java
 article_section: 메시징 처리
 meta_keywords: java, message, properties
 last_modified_at: '2023-02-15 10:00:00 +0800'
@@ -23,8 +23,8 @@ last_modified_at: '2023-02-15 10:00:00 +0800'
 ## JAVA [Message] properties 메시징 처리하기
 
 **메시징 처리**
-자바 스프링 프레임워크에서 별도의 메시지 파일을 통한 메시징 처리.여러가지 알림 문구들을 모아서 관리.
 
+자바 스프링 프레임워크에서 별도의 메시지 파일을 통한 메시징 처리.여러가지 알림 문구들을 모아서 관리.
 
 ## Step 1: MessageSource messageSource()
 Spring boot를 사용하지 않으면 메시지를 빈으로 직접 등록해야 한다.
@@ -173,12 +173,7 @@ msg.0115 =파일이 존재하지 않거나, 읽을 수 없습니다.
 msg.0116 =다시 시도해 주십시오.
 msg.0118 =로그인 후 사용해 주십시오.
 msg.0119 =해당 파일을 찾을수 없습니다.
-msg.0120 =검색어가 누락 되었습니다.
-msg.0121 =검색어를 입력 후 다시 실행해 주십시오.
-msg.0122 =기간을 입력해주세요.
-msg.0123 =시작일은 종료일보다 클 수 없습니다.
-msg.0124 =최대 90일까지 설정 가능합니다.
-msg.0126 =서버와 통신중 오류가 발생하였습니다.
+msg.0120 =서버와 통신중 오류가 발생하였습니다.
 ```
 
 
