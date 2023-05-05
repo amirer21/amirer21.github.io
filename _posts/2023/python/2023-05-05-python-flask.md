@@ -29,13 +29,13 @@ ubuntu 환경에서 shell script를 실행시키고 응답결과를 반환하는
 1. Run shell script
 2. Save log file(로그 저장)
 
-subprocess?
+### subprocess
 
-open?
+### open
 
-```python
+
 python flask api
-
+```python
 from flask import Flask, json, jsonify, request
 import subprocess
 import sys
@@ -44,10 +44,10 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# API 접근 라우팅 /runcts 
-@app.route('/runcts', methods=['GET'])
+# API 접근 라우팅 /runshellExam 
+@app.route('/runshellExam', methods=['GET'])
 def get_run():
-    print('Run DM Client Api')
+    print('Run Api')
     # 시간 가져오기
     timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')    
     directory = "/usr/local/testShell"
@@ -86,5 +86,5 @@ def get_run():
 
 #서버 호스트, 포트 설정
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port='5001', debug=True)
-    ```
+    app.run(host='0.0.0.0', port='5000', debug=True)
+```
