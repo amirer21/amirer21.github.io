@@ -13,10 +13,10 @@ toc_sticky: true
 toc_label: 목차
 description: 리눅스 명령어 - & vs &&
 article_tag1: linux
-article_tag2: &
-article_tag3: &&
+article_tag2: 
+article_tag3: 
 article_section:  
-meta_keywords: linux, &&
+meta_keywords: linux
 last_modified_at: '2019-08-23 10:00:00 +0800'
 ---
 
