@@ -16,7 +16,7 @@ article_tag2: Flask
 article_tag3: API
 article_section: API
 meta_keywords: python, API, Flask
-last_modified_at: '2023-04-24 21:00:00 +0800'
+last_modified_at: '2023-05-05 21:00:00 +0800'
 ---
 ① ② *Python* 
 
@@ -28,10 +28,6 @@ ubuntu 환경에서 shell script를 실행시키고 응답결과를 반환하는
 
 1. Run shell script
 2. Save log file(로그 저장)
-
-### subprocess
-
-### open
 
 
 python flask api
