@@ -13,9 +13,9 @@ toc_label: 목차
 description: context manager 란?
 article_tag1: python
 article_tag2: context
-article_tag3: context_manager
+article_tag3: contextmanager
 article_section: python
-meta_keywords: python, context, context_manager
+meta_keywords: python, context, contextmanager
 last_modified_at: '2023-05-07 21:00:00 +0800'
 ---
 
