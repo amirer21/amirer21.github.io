@@ -24,8 +24,10 @@ last_modified_at: '2023-05-05 21:00:00 +0800'
 
 ([Flask API 간단한 예제 1 ](https://amirer21.github.io/python/python-flask/ ) 에 이어서)
 
+python API를 구현할 수 있는 프레임워크로 Flask가 있다.
+단순하고 가벼운 기능을 구현하기에 용이하다.
 
-###ubuntu 환경에서 shell script를 실행시키고 응답결과를 반환하는 예제
+요약 : 클라이언트로부터 HTTP Get방식으로 요청이 왔을때 shell script를 실행(ubuntu, 리눅스 명령어)시키고 응답결과를 반환하는 예제
 
 - 기능
 
