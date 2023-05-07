@@ -22,9 +22,10 @@ last_modified_at: '2023-05-05 21:00:00 +0800'
 
 ## Flask API 간단한 예제 2
 
-(https://amirer21.github.io/python/python-flask/ 에 이어서)
+([Flask API 간단한 예제 1 ](https://amirer21.github.io/python/python-flask/ ) 에 이어서)
 
-ubuntu 환경에서 shell script를 실행시키고 응답결과를 반환하는 예제
+
+###ubuntu 환경에서 shell script를 실행시키고 응답결과를 반환하는 예제
 
 - 기능
 
@@ -32,7 +33,8 @@ ubuntu 환경에서 shell script를 실행시키고 응답결과를 반환하는
 2. Save log file(로그 저장)
 
 
-python flask api
+### python flask api 소스코드
+
 ```python
 from flask import Flask, json, jsonify, request
 import subprocess
