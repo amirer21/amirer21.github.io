@@ -21,6 +21,9 @@ last_modified_at: '2023-04-24 21:00:00 +0800'
 ① ② *Python* 
 
 ## Flask API 간단한 예제
+
+### 소스코드
+
 ```python
 from flask import Flask, jsonify, request
 
@@ -83,7 +86,11 @@ if __name__ == '__main__':
 ```
 
 
-### 실행 에러 Error: Could not locate a Flask application. Use the 'flask --app' option, 'FLASK_APP' environment variable, or a 'wsgi.py' or 'app.py' file in the current directory.
+### 실행 에러 (Could not locate a Flask application)
+
+```
+Error: Could not locate a Flask application. Use the 'flask --app' option, 'FLASK_APP' environment variable, or a 'wsgi.py' or 'app.py' file in the current directory.
+```
 
 ### 해결 
 
