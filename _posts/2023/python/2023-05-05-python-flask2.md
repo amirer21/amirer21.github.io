@@ -22,9 +22,11 @@ last_modified_at: '2023-05-05 21:00:00 +0800'
 
 ## Flask API 간단한 예제 2
 
+(https://amirer21.github.io/python/python-flask/ 에 이어서)
+
 ubuntu 환경에서 shell script를 실행시키고 응답결과를 반환하는 예제
 
-기능
+- 기능
 
 1. Run shell script
 2. Save log file(로그 저장)

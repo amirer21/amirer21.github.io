@@ -1,5 +1,5 @@
 ---
-title: ubuntu python install
+title: How to instail Python Ubuntu 
 author_profile: true
 read_time: true
 comments: true
@@ -10,7 +10,7 @@ categories:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: ubuntu python install
+description: How to instail Python Ubuntu
 article_tag1: python
 article_tag2: ubuntu
 article_tag3: install
@@ -20,10 +20,13 @@ last_modified_at: '2023-05-05 21:00:00 +0800'
 ---
 
 
-## Ubuntu 파이썬 환경 구축 방법
+## Ubuntu에서 파이썬 환경 구축 방법
+
+Ubuntu에 파이썬 3.10 버전으로 설치하려는데 이미 설치되어있어서
+버전을 변경해야되었다. 그 과정을 기록하였음.
 
 Ubuntu에는 Python 기본 경로가 2.7로 설정되어 있으므로 변경 필요.
-리눅스의 Alternatives로 버전 변경
+리눅스의 Alternatives로 버전 변경해본다.
 
 
 (1) 파이썬 현재 버전 확인
