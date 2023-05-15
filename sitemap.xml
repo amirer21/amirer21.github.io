@@ -33,11 +33,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://amirer21.github.io/test/</loc>
-  <lastmod>2023-05-04T13:58:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://amirer21.github.io/2019-08-23-and-command/</loc>
   <lastmod>2023-05-04T13:58:44+00:00</lastmod>
   <priority>0.80</priority>
@@ -379,11 +374,6 @@
 </url>
 <url>
   <loc>https://amirer21.github.io/ssl/http-ssl/</loc>
-  <lastmod>2023-05-04T13:58:44+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://amirer21.github.io/test/chagne-base-path/</loc>
   <lastmod>2023-05-04T13:58:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>

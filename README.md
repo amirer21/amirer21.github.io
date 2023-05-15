@@ -9,6 +9,44 @@
 ## 프로필 설정
 > _config.yml 파일
 
+## sitemap.xml
+
+- Gemfile과 동일한 경로에 sitemap.xml파일 생성
+- 생성해주는 사이트 :  https://www.xml-sitemaps.com/
+
+## favicon 추가
+
+- 빌드에 문제는 없지만, 없다면 다음과 같은 에러가 발생한다.
+```error
+favicon.ico 404 (not found)
+```
+- 소스 코드 추가 경로 : /_include/head.html
+- 소스 코드 
+
+```html
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="{{ site.asset_url }}/favicon.ico"/>
+```
+
+- 생성해주는 사이트 :  https://www.degraeve.com/favicon/index.php
+
+
+## 구글 애스센스 - ads.txt 상태 : 찾을 수 없음
+
+![img](/assets/images/adsense/adstxt.png "ads.txt")
+
+- 해결 
+
+파일 경로 : root경로에 /ads.txt 파일로 위치(Gemfile과 같은 위치)
+
+> 적용 확인 : https://[블로그 주소].github.io/ads.txt
+
+> amirer21.github.io/ads.txt
+
+
+
+
+
+
 #
 
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
