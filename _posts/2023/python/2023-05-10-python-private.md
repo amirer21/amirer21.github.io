@@ -1,5 +1,5 @@
 ---
-title: Python - private
+title: Python 에서도 Private을 사용하려면?
 author_profile: true
 read_time: true
 comments: true
@@ -19,13 +19,14 @@ meta_keywords: python, private
 last_modified_at: '2023-05-10 21:00:00 +0800'
 ---
 
-#private
+# 접근제어자 Private 
 
-https://www.quora.com/Why-does-Java-have-public-and-private-while-Python-does-not
+자바에서는 접근제어자로 private을 사용하는데
+파이썬에서도 private을 사용할 수 있을까?
 
-자바에서는 아래와 같이 접근제어자로 private을 사용하는데
-파이썬에서도 private을 사용할 수 있을까? 하여 알아봄
+> 참고 : https://www.quora.com/Why-does-Java-have-public-and-private-while-Python-does-not
 
+1.  자바 예제
 ```java
 public class PrivateClassExample {
 	private String returnCode;
@@ -40,6 +41,7 @@ public class PrivateClassExample {
 
 > _(한개) 클래스 __(두개) 필드
 
+2. 파이썬 예제
 ```python
 class PrivateClassExample:
 	def __init__(self, returnCode, userName, userNames: List, userNumber, totalScore):
@@ -55,7 +57,7 @@ print('privatePrint :: ', privatePrint.__dict__)
 print('privatePrint totalScore :: ', privatePrint._PrivateClassExample__totalScore)
 ```
 
-> 양식의 모든 식별자 __name(최소 두 개의 선행 밑줄, 최대 하나의 후행 밑줄)는 공개적으로 로 대체됩니다 _classname__name. 여기서 classname는 선행 밑줄이 제거된 현재 클래스 이름입니다.
-따라서 __name에 직접 액세스할 수 없지만 _classname__name. 으로 액세스할 수 있습니다 
+> "양식의 모든 식별자 __name(최소 두 개의 선행 밑줄, 최대 하나의 후행 밑줄)는 공개적으로 로 대체됩니다 _classname__name. 여기서 classname는 선행 밑줄이 제거된 현재 클래스 이름입니다.
+따라서 __name에 직접 액세스할 수 없지만 _classname__name. 으로 액세스할 수 있습니다."
 
 참고 : https://stackoverflow.com/questions/70528/why-are-pythons-private-methods-not-actually-private
