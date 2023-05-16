@@ -1,5 +1,5 @@
 ---
-title: Python - class type
+title: Python - 클래스 타입(Class type)
 author_profile: true
 read_time: true
 comments: true
