@@ -18,5 +18,20 @@ title: "비전공자 입장에서 쓰는 개발 블로그"
 부족한 점이 있다면 가르침 부탁드립니다.<br>
 
 긍정적인 마음으로 널리 세상에 도움이 되기를 바라며
+
+-----------------
  
+### 경력사항
+
+#### 2019 ~ 2021 (주)한국아이티평가원 - 정보보안/ 정부R&D과제
+##### - Java Spring Framework, Android, PHP, NodeJS B/E
+#### 2022 (주)알피지리퍼블릭 - 게임 거상, 안녕엘라 / 블록체인 사업그룹
+##### - TypeScript, NestJS Framework API Server, 게임 NFT
+#### 2022 비브이에스(주) - SI
+##### - Java 정부표준 Spring Framework
+#### 2023 ~ 현재 (주)이벌브소프트, LG전자 CTO SE팀 TestPresso 테스트 자동화 시스템
+##### - Python SW개발
+
+-----------------
+
 ![img](/assets/images/DSC_1270.jpg "webview")
