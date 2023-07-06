@@ -20,16 +20,16 @@ last_modified_at: '2023-06-12 21:00:00 +0800'
 ---
 
 ## Thread 커스텀하게 만들기
-```
-파이썬 API Flask 프레임워크 적용
+
+> **프레임워크 및 구현 내용** : 파이썬 API Flask 프레임워크 적용
 리눅스 서버에서 리눅스 명령어를 실행하는 기능을 수행하고 있다.
 해당 프로그램은 쓰레드로 실행된다.
-```
 
 Python의 Thread클래스에는 내장 result속성이 없다.
 따라서, 스레드 실행 결과를 저장하는 사용자 지정 하위 클래스를 정의하였다.
 Thread 클래스에 있는 run 메서드를 오버라이딩(Overriding)
 
+### 예제 코드
 ```py
 class RunShellTestClass:
     def runShellCommand(self):
@@ -96,9 +96,9 @@ def runTest():
 ```
 > "자바 스레딩 모델의 하위 집합을 에뮬레이트하는 스레드 모듈입니다."
 
-# Main class for threads
+## 2. Main class for threads
 
-# class Thread: 의 주석
+### 2.1 class Thread: 의 주석
 ```py
 """A class that represents a thread of control.
 
@@ -114,10 +114,13 @@ Thread 클래스를 살펴보면 이러한 설명이 있다.
 - (1) 호출 가능한 객체를 생성자에 전달하거나 
 - (2) 하위 클래스에서 run() 메서드를 재정의하여 사용한다.
 
+### 2.2 run 메서드
+
 run 메서드를 살펴보자.
 
 하위 클래스에서 이 메서드를 재정의할 수 있다
 
+#### run 메서드의 주석 설명
 ```py
 # def run(self): 의 주석
 """Method representing the thread's activity.

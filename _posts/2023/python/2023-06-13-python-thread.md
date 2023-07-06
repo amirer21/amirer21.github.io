@@ -21,8 +21,10 @@ last_modified_at: '2023-06-13 21:00:00 +0800'
 
 ## Thread 이벤트 모니터링 처리
 
+파이썬에서 Thread의 Event 클래스에 대한 정리내용.
+구현내용은 특정 이벤트 발생을 모니터링하는 코드이다.
 
-
+### 1. Event 클래스
 ```py
 class Event:
     """Class implementing event objects.
@@ -34,6 +36,7 @@ class Event:
     """
 ```
 
+### 1.1 set()
 > "Event 클래스에서 
 
 > set()는 true로 설정할 수 있는 플래그를 관리하고 재설정한다. 
@@ -43,13 +46,15 @@ def set(self):
         self._flag = True
         self._cond.notify_all()
 ```
+### 1.2 clear()
 > clear() 메서드를 사용하여 false로 변경한다. 
 ```py
 def clear(self):
     with self._cond:
         self._flag = False
 ```
-            
+
+### 1.3 wait()  
 >wait() 메서드는 플래그가 표시될 때까지 차단된다. "
 ```py    
 def wait(self, timeout=None):        
