@@ -118,7 +118,8 @@ pytest.mark.skip() 를 사용하면, 해당되는 테스트 함수는 skip 된�
 
 
 ## 4. 예제 코드
-https://github.com/amirer21/python-exam/tree/main/pytestExam
+
+[소스코드 바로가기](https://github.com/amirer21/python-exam/tree/main/pytestExam "소스코드 바로가기")
 
 ### 4.1 예제 코드의 구조
 Test code는 일반적으로 기존 프로젝트 코드와 다른 디렉토리에 위치하므로 비슷하게 구성하였다.

@@ -122,6 +122,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    #- label: "Medium"
+     # icon: "fab fa-fw fa-medium"
+     # url: "https://medium.com/@amirer21"
 
 # Site Footer
 footer:

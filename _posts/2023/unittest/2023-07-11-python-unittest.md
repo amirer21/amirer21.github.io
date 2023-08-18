@@ -106,7 +106,8 @@ tearDown() 메소드를 통해서 테스트 후에 실행하는 함수를 작성
 
 
 ## 7. sample code (python 3.10)
-https://github.com/amirer21/python-exam/tree/main/unittestExam
+
+[소스코드 바로가기](https://github.com/amirer21/python-exam/tree/main/unittestExam "소스코드 바로가기")
 
 ```py
 import unittest
