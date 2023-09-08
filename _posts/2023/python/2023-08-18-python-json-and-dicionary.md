@@ -20,9 +20,7 @@ last_modified_at: '2023-08-18 21:00:00 +0800'
 ---
 
 ## 파이썬 JSON, Dictionary 정리 - loads(), load(), dumps(), dump()
-
 ### json 이란?
-
 JSON은 JavaScript 객체 표기법(JavaScript Object Notation)을 뜻합니다. JSON은 서버와 웹 애플리케이션 간의 데이터 교환에 일반적으로 사용되는 경량(lightweight) 데이터 교환 형식이다.
 
 웹 애플리케이션 상에서 정보를 저장하고 전달하는 데 쓰이는 데이터 포맷이다.
