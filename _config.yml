@@ -23,7 +23,7 @@ subtitle                 : "Developer Hong amiro" # site tagline that appears be
 name                     : "amiro"
 description              : "An amazing website."
 url                      : "https://amirer21.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "-"
 repository               : "amirer21/amirer21.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -103,6 +103,7 @@ author:
   bio              : "I hope my writing will be helpful to someone.<br><br>처음의 제가 그러했듯이<br> 제가 정리한 글들이 <br> 누군가에게 조금이나마 <br> 도움이 되기를 바라며"
   location         : "Republic of Korea"
   email            : #"amirer21@gmail.com"
+  tistory          : "https://dev-hongik-ingan.tistory.com/"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -125,6 +126,9 @@ author:
     #- label: "Medium"
      # icon: "fab fa-fw fa-medium"
      # url: "https://medium.com/@amirer21"
+    - label: "Tistory"
+      icon: "fab fa-fw fa-tistory"
+      url: "https://dev-hongik-ingan.tistory.com/"
 
 # Site Footer
 footer:

@@ -12,11 +12,11 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 description: Blockchain Truffle로 solidity 개발환경 구축하기
-article_tag1: blockchain
+article_tag1: Blockchain
 article_tag2: truffle
 article_tag3: solidity
 article_section:  
-meta_keywords: blockchain, truffle, solidity
+meta_keywords: Blockchain, truffle, solidity
 last_modified_at: '2019-01-15 10:00:00 +0800'
 ---
 

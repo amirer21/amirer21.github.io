@@ -6,7 +6,7 @@ comments: true
 share: true
 related: true
 categories:
-- blockchain
+- Blockchain
 toc: true
 toc_sticky: true
 toc_label: 목차

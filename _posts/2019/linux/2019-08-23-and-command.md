@@ -7,7 +7,7 @@ comments: true
 share: true
 related: true
 categories:
-- linux
+- Linux
 toc: true
 toc_sticky: true
 toc_label: 목차
