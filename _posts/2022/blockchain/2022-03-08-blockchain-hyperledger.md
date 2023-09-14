@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 description: Blockchain 하이퍼레저(hyperledger) Error
-article_tag1: blockchain
+article_tag1: Blockchain
 article_tag2: hyperledger
 article_tag3: error
 article_section: blockchain

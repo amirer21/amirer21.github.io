@@ -6,11 +6,11 @@ comments: true
 share: true
 related: true
 categories:
-- blockchain
+- Blockchain
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: blockchain
+description: Blockchain
 article_tag1: python
 article_tag2: blockchain
 article_tag3: 

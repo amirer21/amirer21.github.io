@@ -12,10 +12,10 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 description: Geth, Remix(Web IDE), Metamask(Wallet) 연동
-article_tag1: blockchain
+article_tag1: Blockchain
 article_tag2: geth
 article_tag3: remix
-article_section: blockchain
+article_section: Blockchain
 meta_keywords: geth, remix, metamask
 last_modified_at: '2022-03-24 14:00:00 +0800'
 ---
