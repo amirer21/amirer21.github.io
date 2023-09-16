@@ -25,8 +25,9 @@ selenium 은 웹 브라우저를 제어하는 프레임워크
 
 브라우저의 뒤로가기, 앞으로가기, 새로고침, 탭 종료 등을 할 수 있다.
 
-# pip install selenium
-# pip install webdriver-manager
+> pip install selenium
+
+> pip install webdriver-manager
 
 ```py
 from selenium import webdriver
