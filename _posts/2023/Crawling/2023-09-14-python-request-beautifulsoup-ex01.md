@@ -109,12 +109,18 @@ BeautifulSoup는 가져온 HTML을 파싱하는 역할을 한다.
 BeautifulSoup에서는 HTML 웹 페이지에서 필요한 데이터를 추출하는데 사용하는 함수가 있다.
 
 - find() 함수는 HTML에서 특정 태그를 검색하는 역할을 한다. 기본적으로 HTML에서 처음 발견되는 태그를 검색한다.
+
 사용 방식 : find(태그, 속성)
+
 예 : find("div", {"class":"hello"})
 
 - find_all() 함수는 HTML에서 특정 태그를 모두 검색하는 역할을 한다. 기본적으로 HTML에서 발견되는 모든 태그를 검색한다.
+
 사용 방식 : find_all(태그, 속성)
+
 예 : find_all("div", {"class":"hello"})
+
+아래와 같이 HTML(html_str)을 가져와서 hello 텍스트만 출력한다.
 ```py
 import bs4
 
@@ -124,8 +130,11 @@ bs_obj = bs4.BeautifulSoup(html_str, "html.parser")
 print(type(bs_obj))
 print(bs_obj)
 print(bs_obj.find("div"))
+```
 
-##
+같은 위치의 태그에 여러 값이 있는 경우
+
+```py
 import bs4
 html_str = """
 <html>
@@ -138,6 +147,7 @@ html_str = """
     </body>
 </html>
 """
+
 bs_obj = bs4.BeautifulSoup(html_str, "html.parser")
 ul = bs_obj.find("ul")
 print(ul)
@@ -153,6 +163,7 @@ print(lis)
 print(lis[1])
 print(lis[1].text)
 ```
+
 ------------------
 
 ## BeautifulSoup 예제 (2)
