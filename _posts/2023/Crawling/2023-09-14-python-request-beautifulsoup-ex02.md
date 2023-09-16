@@ -100,7 +100,6 @@ for i in range(len(lis)):
 
 ## 크롤링 예제 (2)
 다음 영화, 역대 관객 영화 이미지 수집
-2022년 data crawling : requests, bs4
 
 다음은 웹 페이지에서 이미지의 주소를 가져와서 파일로 저장하는 예제이다.
 
@@ -109,6 +108,7 @@ for i in range(len(lis)):
 - (2) bs4 : 가져온 HTML을 파싱하기
 - (3) find : 필요한 데이터만 추출하기
 - (4) 출력
+
 ```py
 import requests
 import bs4
