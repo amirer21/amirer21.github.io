@@ -10,7 +10,7 @@ categories:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: Gitblog - (Error) bundle exec jekyll serve
+description: Gitblog - solve to bundle exec jekyll serve Error
 article_tag1: gitblog
 article_tag2: error
 article_tag3: resolve
@@ -48,9 +48,9 @@ vs code 'bundle'은(는) 내부 또는 외부 명령, 실행할 수 있는 프�
 > 접속 https://rubyinstaller.org/downloads/
 
 > $ruby -v
-'''
+```
 ruby 3.1.4p223 (2023-03-30 revision 957bb7cb81) [x64-mingw-ucrt]
-'''
+```
 
 ### jekyll 설치
 > gem install jekyll
