@@ -6,22 +6,22 @@ comments: true
 share: true
 related: true
 categories:
-- Gitblog
+- Error
 toc: true
 toc_sticky: true
 toc_label: 목차
 description: Gitblog - (Error) bundle exec jekyll serve
-article_tag1: Gitblog
+article_tag1: gitblog
 article_tag2: error
 article_tag3: resolve
-article_section: gitblog
+article_section: Error
 meta_keywords: gitblog, error, resolve
 last_modified_at: '2023-09-22 21:00:00 +0800'
 ---
 
 # gitblog, bundle exec jekyll serve 에러 해결
-- 에러 (1) vs code 'bundle'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.
-- 에러 (2) "bundle install 에러" : Could not find jekyll-admin-0.11.1, jekyll-sitemap-1.4.0, jekyll-4.3.1, jekyll-feed-0.17.0, jekyll-include-cache-0.2.1, rouge-4.0.1, listen-3.7.1 in locally installed gems
+- 에러 (1) : "vs code 'bundle'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다."
+- 에러 (2) "bundle install 에러" : "Could not find jekyll-admin-0.11.1, jekyll-sitemap-1.4.0, jekyll-4.3.1, jekyll-feed-0.17.0, jekyll-include-cache-0.2.1, rouge-4.0.1, listen-3.7.1 in locally installed gems"
 
 
 ## 에러 발생
