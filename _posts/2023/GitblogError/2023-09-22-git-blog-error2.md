@@ -12,9 +12,9 @@ toc_sticky: true
 toc_label: 목차
 description: Gitblog - solve to bundle exec jekyll serve Error
 article_tag1: gitblog
-article_tag2: error
+article_tag2: error  
 article_tag3: resolve
-article_section: Error
+article_section: error
 meta_keywords: gitblog, error, resolve
 last_modified_at: '2023-09-22 21:00:00 +0800'
 ---
