@@ -8,6 +8,10 @@ share: true
 related: true
 categories:
 - AWS
+tags:
+- AWS
+- MobaXterm
+- SSH
 toc: true
 toc_sticky: true
 toc_label: 목차

@@ -7,6 +7,10 @@ share: true
 related: true
 categories:
 - Python
+tags:
+- Python
+- JSON
+- Dictionary
 toc: true
 toc_sticky: true
 toc_label: 목차

@@ -7,6 +7,8 @@ share: true
 related: true
 categories:
 - Error
+tags:
+- GitBlog
 toc: true
 toc_sticky: true
 toc_label: 목차

@@ -8,6 +8,8 @@ share: true
 related: true
 categories:
 - Apache2
+tags:
+- Apache2
 toc: true
 toc_sticky: true
 toc_label: 목차

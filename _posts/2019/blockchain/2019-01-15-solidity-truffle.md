@@ -8,6 +8,10 @@ share: true
 related: true
 categories:
 - Blockchain
+tags:
+- Blockchain
+- Truffle
+- Solidity
 toc: true
 toc_sticky: true
 toc_label: 목차
