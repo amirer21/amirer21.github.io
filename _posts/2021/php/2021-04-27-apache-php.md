@@ -8,6 +8,10 @@ share: true
 related: true
 categories:
 - PHP
+tags:
+- PHP
+- Apache2
+- MySQL
 toc: true
 toc_sticky: true
 toc_label: 목차

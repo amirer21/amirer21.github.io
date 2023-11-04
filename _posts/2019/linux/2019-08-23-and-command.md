@@ -8,6 +8,8 @@ share: true
 related: true
 categories:
 - Linux
+tags:
+- Linux
 toc: true
 toc_sticky: true
 toc_label: 목차

@@ -7,6 +7,10 @@ share: true
 related: true
 categories:
 - Crawling
+tags:
+- Python
+- Crawling
+- BeautifulSoup
 toc: true
 toc_sticky: true
 toc_label: 목차

@@ -7,6 +7,9 @@ share: true
 related: true
 categories:
 - Pandas
+tags:
+- Python
+- Pandas
 toc: true
 toc_sticky: true
 toc_label: 목차

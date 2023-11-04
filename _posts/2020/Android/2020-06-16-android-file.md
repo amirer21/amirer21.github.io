@@ -8,6 +8,9 @@ share: true
 related: true
 categories:
 - Android
+tags:
+- Android
+- File
 toc: true
 toc_sticky: true
 toc_label: 목차

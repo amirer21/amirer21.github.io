@@ -8,6 +8,8 @@ share: true
 related: true
 categories:
 - Blockchain
+tags:
+- Blockchain
 toc: true
 toc_sticky: true
 toc_label: 목차

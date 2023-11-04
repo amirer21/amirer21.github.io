@@ -7,6 +7,10 @@ share: true
 related: true
 categories:
 - Selenium
+tags:
+- Python
+- Crawling
+- Selenium
 toc: true
 toc_sticky: true
 toc_label: 목차

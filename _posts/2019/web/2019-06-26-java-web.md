@@ -8,6 +8,8 @@ share: true
 related: true
 categories:
 - Web
+tags:
+- Web
 toc: true
 toc_sticky: true
 toc_label: 목차
