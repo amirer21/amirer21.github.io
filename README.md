@@ -43,6 +43,63 @@ favicon.ico 404 (not found)
 > amirer21.github.io/ads.txt
 
 
+## comments 기능 추가하기
+
+Gitblog(Jekyll) 에 댓글 기능을 추가해보자.
+Github에서 utteranc를 설치해야된다.
+그리고 repository는 기본적으로 "public"으로 설정되어있어야한다.
+아래 순서에 따라서 설정을 하면 적용된다.
+
+- comments :: utteranc
+- link :: https://utteranc.es/
+
+### 순서
+
+(1) Github에서 utteranc 설치하기
+
+(2) utterance client java scirpt 가져오기
+
+- 연결할 repository 설정
+![img](/assets/images/gitblog_comments_utterances/gitblog_commets_1.png "utterances")
+
+- 블로그 포스트와 GitHub 이슈 매핑 설정
+![img](/assets/images/gitblog_comments_utterances/gitblog_commets_2.png "utterances")
+
+- Theme 설정 및 스크립트 코드 생성
+![img](/assets/images/gitblog_comments_utterances/gitblog_commets_3.png "utterances")
+
+(3) posts.html 설정하기
+   ```js
+   <script src="https://utteranc.es/client.js"
+        repo="amirer21/amirer21.github.io"
+        issue-term="pathname"
+        label="comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+   </script>
+   ```
+(4) _config.yml 설정하기
+
+   ```yml
+   comments:  
+   provider               : "utterances" 
+   utterances:
+    #repo                 : "amirer21/amirer21.github.io"
+    theme                : "github-dark" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
+    ```
+
+(5) utterances.json 설정하기
+
+   ```json
+   {
+    "origins": ["https://amirer21.github.io/"]
+   }
+   ```
+
+(5) 배포해서 확인하기
+
 
 
 
