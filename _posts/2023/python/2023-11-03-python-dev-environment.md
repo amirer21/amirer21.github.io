@@ -40,7 +40,7 @@ pip를 사용하여 패키지를 설치하면, 기본적으로 가장 최근에 
 > $ which python
 
 ### Windows : 
-> > where python
+> where python
 
 
 ## 파이썬 라이브러리 설치 목록 확인
@@ -63,7 +63,9 @@ alabaster                     0.7.13
 > C:/Users/user/AppData/Local/Programs/Python/Python38/Lib/site-packages
 
 ## 파이썬 특정 라이브러리의 경로 확인
+
 > pip show -f <package name>
+
 > (예시) pip show -f aiohttp
 
 ```
@@ -88,6 +90,7 @@ Files:
 
 위 Location 항목만 가져오기
 (windows)
+
 > (예시) pip show -f aiohttp | findstr "Location"
 
 > (출력결과) Location: C:\Users\hong\AppData\Local\Programs\Python\Python311\Lib\site-packages
@@ -99,13 +102,17 @@ Files:
 sys : system path. 시스템 경로에서 참조할 수 있는 모든 경로를 가지고 있는 리스트이다.
 
 > import sys 
+
 > print(sys.path) 
+
 ```
 ['D:\\python_workspace\\python-exam\\pythonEnvironment', 'C:\\Users\\hong\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip', 'C:\\Users\\hong\\AppData\\Local\\Programs\\Python\\Python311\\DLLs', 'C:\\Users\\hong\\AppData\\Local\\Programs\\Python\\Python311\\Lib', 'C:\\Users\\hong\\AppData\\Local\\Programs\\Python\\Python311', 'C:\\Users\\hong\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages']
 ```
 
 ## sys.path[0] : 현재 실행되는 파일의 경로를 나타낸다.
+
 > print(sys.path[0])
+
 ```
 D:\python_workspace\python-exam\pythonEnvironment
 ```
@@ -121,10 +128,13 @@ export PYTHONPATH="${PYTHONPATH}:/path/to/your/python/file"
 6. Check the environment variable
 $ echo $PYTHONPATH
 7. Check the environment variable in python
+
 $ python
+
+```
 >>> import sys
 >>> sys.path
-
+```
 
 ## Mac OS, pip3, pip 설정
 
@@ -133,7 +143,9 @@ pip3는 python3의 pip이고, pip는 python2의 pip이다.
 pip를 pip3로 설정하고 싶다면, 아래와 같이 설정하면 된다.
 
 > $ alias pip=pip3 >> ~/.bash_profile
+
 명령어 설명 : alias(별칭) "별칭"="명령어" >>(추가할 파일) ~/.bash_profile(파일 경로)
 
 > $ source ~/.bash_profile
+
 명령어 설명 : source 명령어는 현재 쉘 환경에서 지정된 파일을 읽어서 환경 변수를 설정하거나 명령어를 실행하는 기능을 한다.

@@ -87,7 +87,8 @@ Github에서 utteranc를 설치해야된다.
    utterances:
     #repo                 : "amirer21/amirer21.github.io"
     theme                : "github-dark" # "github-light" (default), "github-dark"
-    issue_term           : "pathname" # "pathname" (default)
+    issue_term           
+    : "pathname" # "pathname" (default)
     ```
 
 (5) utterances.json 설정하기
