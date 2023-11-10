@@ -294,6 +294,7 @@ INFO:     127.0.0.1:3475 - "POST /chat HTTP/1.1" 200 OK
 ## 또다른 응답 결과값
 
 > 질문 : What day is it today?
+
 ```
 response ::  {
   "id": "chatcmpl-8HBiMOeEYCUuMfM7vFJ4zWJbuvgiP",
@@ -318,4 +319,5 @@ response ::  {
 }
 INFO:     127.0.0.1:3493 - "POST /chat HTTP/1.1" 200 OK
 ```
+
 -----------------
