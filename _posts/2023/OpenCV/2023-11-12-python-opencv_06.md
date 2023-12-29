@@ -29,7 +29,8 @@ empty, zeros, ones, full 함수를 사용하여 numpy 객체를 생성할 수 �
 
 이번 예제에서는 numpy로 객체를 생성하고, 이 객체를 영상으로 변환하여 출력해보자.
 
-### 불러오기
+### 모듈 import
+
 ```py
 import numpy as np
 import cv2
@@ -133,7 +134,7 @@ img4 ::
 '''
 ```
 
-## 이미지 출력해보기
+## 이미지 출력 결과
 ```py
 cv2.imshow('img1', img1)
 cv2.imshow('img2', img2)
