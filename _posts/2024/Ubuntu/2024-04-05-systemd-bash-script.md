@@ -35,19 +35,35 @@ ExecStart=/bin/bash -c '/home/../SomethingScript.sh -c --start || /tmp/exit_hand
 
 ### 설명 
 
-- /bin/bash -c
+- 코드(1)
+
+```
+/bin/bash -c
+```
 
  : 새 bash 세션을 시작하고, -c 옵션 다음에 오는 명령어를 실행합니다.
 
-- /home/../SomethingScript.sh --start
+- 코드(2)
+
+```
+/home/../SomethingScript.sh --start
+```
 
  : /home/../ 디렉토리에 위치한 SomethingScript.sh 스크립트를 -c와 --start 옵션과 함께 실행합니다. 이 스크립트는 아마도 특정 노드 애플리케이션을 시작하는 역할을 할 것입니다.
 
-- ||
+- 코드(3)
+
+```
+ ||
+```
 
  : 이전 명령어가 실패했을 경우 (즉, 0이 아닌 종료 코드를 반환했을 경우) 뒤따르는 명령어를 실행합니다.
 
-- /tmp/exit_handler $?
+- 코드(4)
+
+```
+/tmp/exit_handler $?
+```
 
  : exit_handler 스크립트를 /tmp 디렉토리에서 실행합니다.
  $?는 바로 이전에 실행된 명령어의 종료 코드를 나타냅니다. 이 스크립트는 명령어 실행 실패 시 어떤 조치를 취할지 정의합니다.
