@@ -1,6 +1,8 @@
 # server start
 
->bundle exec jekyll serve
+> bundle exec jekyll serve
+
+> bundle exec jekyll serve --trace
 
 ## connect
 
@@ -28,6 +30,13 @@ favicon.ico 404 (not found)
 ```
 
 - 생성해주는 사이트 :  https://www.degraeve.com/favicon/index.php
+
+
+## Script 추가
+
+### 파일
+
+> /_inculde/haed.html 또는 /_layouts/default.html
 
 
 ## 구글 애스센스 - ads.txt 상태 : 찾을 수 없음
@@ -102,6 +111,38 @@ Github에서 utteranc를 설치해야된다.
 (5) 배포해서 확인하기
 
 
+
+## 테마 변경(참고)
+
+### _config.yml 
+```
+minimal_mistakes_skin    : "air"
+```
+
+### post.html
+
+```
+<script src="https://utteranc.es/client.js"
+        repo="amirer21/amirer21.github.io"
+        issue-term="pathname"
+        label="comment"
+        theme="github-air"
+        crossorigin="anonymous"
+        async>
+</script>
+```
+
+### _config.yml
+
+```
+minimal_mistakes_skin    : "air"
+```
+
+## Math, Mermaid 라이브러리 추가
+
+### head.html
+
+### defaul.html
 
 
 
