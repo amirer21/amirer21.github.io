@@ -112,7 +112,7 @@ Github에서 utteranc를 설치해야된다.
 
 
 
-## 테마 변경
+## 테마 변경(참고)
 
 ### _config.yml 
 ```
