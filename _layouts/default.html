@@ -37,6 +37,15 @@
     </div>
 
     {% include scripts.html %}
-
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const mermaidElements = document.querySelectorAll('.language-mermaid');
+        mermaidElements.forEach((el) => {
+          el.classList.remove('language-mermaid');
+          el.classList.add('mermaid');
+        });
+        mermaid.init();
+      });
+    </script>
   </body>
 </html>
