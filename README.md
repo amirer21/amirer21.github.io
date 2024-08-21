@@ -144,9 +144,104 @@ minimal_mistakes_skin    : "air"
 
 ### defaul.html
 
+------------------
 
+# 설치 방법
 
-#
+### 1. Ruby 및 관련 도구 설치
+
+#### 1.1. Ruby 설치
+1. [RubyInstaller](https://rubyinstaller.org/)를 통해 Windows용 Ruby를 설치합니다.
+2. 설치 중 "MSYS2 and MINGW development toolchain" 옵션을 선택하여 설치합니다. 이는 이후 gem 설치와 빌드에 필요한 도구들을 포함합니다.
+
+#### 1.2. Bundler 설치
+Ruby 설치가 완료되면, 터미널 또는 명령 프롬프트를 열고 다음 명령어로 `bundler`를 설치합니다:
+
+```bash
+gem install bundler
+```
+
+### 2. Jekyll 프로젝트 설정
+
+#### 2.1. Jekyll 프로젝트 생성
+Jekyll 프로젝트를 생성하려면 다음 명령어를 실행합니다:
+
+```bash
+jekyll new my-blog
+cd my-blog
+```
+
+#### 2.2. Gemfile 설정
+`Gemfile`은 프로젝트의 의존성을 관리합니다. `Gemfile`을 다음과 같이 설정합니다:
+
+```ruby
+source "https://rubygems.org"
+gemspec
+
+gem 'jekyll-admin', group: :jekyll_plugins
+gem 'jekyll-sitemap'
+
+gem 'rack'
+gem 'webrick', '>= 1.7.0'
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+```
+
+### 3. 의존성 설치 및 서버 실행
+
+#### 3.1. Gemfile.lock 파일 삭제 (필요 시)
+만약 의존성 충돌이나 문제가 의심된다면, `Gemfile.lock` 파일을 삭제합니다:
+
+```bash
+rm Gemfile.lock
+```
+
+#### 3.2. 의존성 설치
+`bundle install` 명령어를 실행하여 `Gemfile`에 명시된 모든 의존성을 설치합니다:
+
+```bash
+bundle install
+```
+
+#### 3.3. Jekyll 서버 실행
+Jekyll 서버를 실행하여 로컬에서 사이트를 확인합니다:
+
+```bash
+bundle exec jekyll serve
+```
+
+### 4. 문제 해결
+
+#### 4.1. `Rack::Handler` 관련 오류 해결
+`rack`과 `webrick`이 제대로 설치되지 않았거나 충돌이 발생할 경우, 다음 단계를 통해 해결할 수 있습니다:
+
+1. `rack`과 `webrick`을 명시적으로 재설치:
+
+   ```bash
+   gem uninstall rack webrick
+   gem install rack webrick
+   ```
+
+2. `bundle install`을 다시 실행하여 모든 의존성을 설치합니다.
+
+3. `jekyll-admin`을 비활성화하여 문제가 `jekyll-admin`에서 발생하는지 확인합니다. 필요시 `Gemfile`에서 `jekyll-admin`을 주석 처리합니다:
+
+   ```ruby
+   # gem 'jekyll-admin', group: :jekyll_plugins
+   ```
+
+4. `--trace` 옵션을 사용하여 Jekyll을 실행하고 추가적인 디버깅 정보를 얻습니다:
+
+   ```bash
+   bundle exec jekyll serve --trace
+   ```
+
+### 5. 추가 팁
+- `Gemfile.lock`을 삭제하고 gem들을 다시 설치하는 방법은 자주 유용합니다.
+- `bundle update` 명령어를 사용하여 모든 gem을 최신 버전으로 업데이트할 수 있습니다.
+- Ruby와 Jekyll의 호환성을 확인하여 최신 버전의 Ruby와 Jekyll이 호환되는지 확인하세요.
+
+--------------------------
 
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
