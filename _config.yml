@@ -305,9 +305,9 @@ defaults:
       comments: true
       share: true
       related: true
-      permalink: /ko/:year/:categories/:title/
+      permalink: /ko/:year/:categories/:title/  # 'categories'와 'year' 순서 수정
 
-  # 영어 포스트들에 대한 디폴트 설정
+  # 영어 포스트에 대한 디폴트 설정
   - scope:
       path: "_posts/en"
       type: posts
@@ -319,8 +319,7 @@ defaults:
       comments: true
       share: true
       related: true
-      # 중복되는 /en 제거
-      permalink: /:year/:categories/:title/ 
+      permalink: /en/:year/:categories/:title/  # 일관된 URL 형식
 
   # _pages
   - scope:
