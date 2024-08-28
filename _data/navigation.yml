@@ -1,20 +1,35 @@
-# main links
+# Main links for different languages
 main:
-  - title: "소개"
-    url: /about/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "연도별 포스트"
-    url: /posts/
-  #- title: "test"
-  # url: /test/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  en:  # English Navigation
+    - title: "About"
+      url: /en/about/
+    - title: "Categories"
+      url: /en/categories/
+    - title: "Tags"
+      url: /en/tags/
+    - title: "Yearly Posts"
+      url: /en/posts/
+    # Additional English links can be uncommented and added as needed
+    # - title: "Sample Posts"
+    #   url: /en/year-archive/
+    # - title: "Sample Collections"
+    #   url: /en/collection-archive/
+    # - title: "Sitemap"
+    #   url: /en/sitemap/
+
+  ko:  # Korean Navigation
+    - title: "소개"
+      url: /ko/about/
+    - title: "카테고리"
+      url: /ko/categories/
+    - title: "태그"
+      url: /ko/tags/
+    - title: "연도별 포스트"
+      url: /ko/posts/
+    # Additional Korean links can be uncommented and added as needed
+    # - title: "샘플 포스트"
+    #   url: /ko/year-archive/
+    # - title: "샘플 컬렉션"
+    #   url: /ko/collection-archive/
+    # - title: "사이트맵"
+    #   url: /ko/sitemap/
