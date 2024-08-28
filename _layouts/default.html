@@ -12,6 +12,20 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <!-- Mermaid 라이브러리 추가 -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+    <!-- Mermaid 초기화 코드 -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const mermaidElements = document.querySelectorAll('.language-mermaid');
+        mermaidElements.forEach((el) => {
+          el.classList.remove('language-mermaid');
+          el.classList.add('mermaid');
+        });
+        mermaid.initialize({ startOnLoad: true });
+      });
+    </script>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
