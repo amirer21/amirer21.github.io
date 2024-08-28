@@ -233,6 +233,14 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-polyglot
+
+languages: ['ko', 'en']
+default_lang: "ko"
+exclude_from_localization: ["assets/", "images/", "css/"]
+parallel_localizaion: false
+
+
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -279,21 +287,41 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  posts:
+    output: true
 
 # Defaults
 defaults:
-  # _posts
+  # 한글 포스트들에 대한 디폴트 설정
   - scope:
-      path: ""
+      path: "_posts/ko"
       type: posts
     values:
       layout: single
+      lang: ko
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-      
+      permalink: /ko/:categories/:year/:title/
+
+  # 영어 포스트들에 대한 디폴트 설정
+  - scope:
+      path: "_posts/en"
+      type: posts
+    values:
+      layout: single
+      lang: en
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      # 중복되는 /en 제거
+      permalink: /:categories/:year/:title/
+
   # _pages
   - scope:
       path: "_pages"
@@ -301,3 +329,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+translated: true
+
+
+display-title:
+  ko: "홍익인간 미로홍의 개발 블로그"
+  en: "Miro Hong’s development blog"
+display-subtitle:
+  ko: "배워서 남에게 베풀자"
+  en: "Let's learn and give to others"

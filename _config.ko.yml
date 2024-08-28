@@ -1,0 +1,9 @@
+title: "내 한국어 사이트"
+default_lang: ko
+permalink: /ko/:categories/:year/:title/
+
+collections:
+  posts:
+    output: true
+    path: "_posts/ko/:year/:categories"
+    permalink: /ko/:categories/:year/:title/
