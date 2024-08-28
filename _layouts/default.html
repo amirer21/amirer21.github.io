@@ -12,6 +12,7 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    {% assign nav = site.data.navigation.main[page.lang] %}
     <!-- Mermaid 라이브러리 추가 -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 
