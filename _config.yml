@@ -305,7 +305,7 @@ defaults:
       comments: true
       share: true
       related: true
-      permalink: /ko/:categories/:year/:title/
+      permalink: /ko/:year/:categories/:title/
 
   # 영어 포스트들에 대한 디폴트 설정
   - scope:
@@ -320,7 +320,7 @@ defaults:
       share: true
       related: true
       # 중복되는 /en 제거
-      permalink: /:categories/:year/:title/
+      permalink: /:year/:categories/:title/ 
 
   # _pages
   - scope:

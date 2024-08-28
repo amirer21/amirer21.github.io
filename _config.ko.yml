@@ -1,9 +1,9 @@
 title: "내 한국어 사이트"
 default_lang: ko
-permalink: /ko/:categories/:year/:title/
+permalink: /ko/:year/:categories/:title/  # year를 categories 앞에 위치시킴
 
 collections:
   posts:
     output: true
-    path: "_posts/ko/:year/:categories"
-    permalink: /ko/:categories/:year/:title/
+    path: "_posts/ko/:year/:categories"  # 파일 경로는 연도와 카테고리를 포함
+    permalink: /ko/:year/:categories/:title/  # 동일하게 permalink 설정
