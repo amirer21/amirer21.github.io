@@ -34,8 +34,27 @@
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
 
+    <!-- 언어별 포스트 목록 표시 -->
     <div class="initial-content">
       {{ content }}
+
+      <!-- 영어 포스트 목록 -->
+      <h2>English Posts</h2>
+      <ul>
+        {% assign en_posts = site.posts | where: "lang", "en" %}
+        {% for post in en_posts limit: 5 %} <!-- 최근 5개의 포스트만 표시 -->
+          <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+        {% endfor %}
+      </ul>
+
+      <!-- 한국어 포스트 목록 -->
+      <h2>한국어 포스트</h2>
+      <ul>
+        {% assign ko_posts = site.posts | where: "lang", "ko" %}
+        {% for post in ko_posts limit: 5 %} <!-- 최근 5개의 포스트만 표시 -->
+          <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+        {% endfor %}
+      </ul>
     </div>
 
     {% if site.search == true %}
