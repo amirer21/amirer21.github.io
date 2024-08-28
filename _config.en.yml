@@ -1,9 +1,11 @@
+# config.en.yml
+
 title: "My English Site"
 default_lang: en
-permalink: /en/:categories/:year/:title/
+permalink: /en/:year/:categories/:title/  # year를 categories 앞에 위치시킴
 
 collections:
   posts:
     output: true
-    path: "_posts/en/:year/:categories"
-    permalink: /en/:categories/:year/:title/
+    path: "_posts/en/:year/:categories"  # 파일 경로는 연도와 카테고리를 포함
+    permalink: /en/:year/:categories/:title/  # 동일하게 permalink 설정
