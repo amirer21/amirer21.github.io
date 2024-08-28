@@ -1,0 +1,9 @@
+title: "My English Site"
+default_lang: en
+permalink: /en/:categories/:year/:title/
+
+collections:
+  posts:
+    output: true
+    path: "_posts/en/:year/:categories"
+    permalink: /en/:categories/:year/:title/
