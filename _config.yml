@@ -293,6 +293,17 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      
   # 한글 포스트들에 대한 디폴트 설정
   - scope:
       path: "_posts/ko"
