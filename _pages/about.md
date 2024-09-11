@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /ko/about/
 title: "배워서 남주는 개발 블로그"
 ---
 

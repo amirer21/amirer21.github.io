@@ -1,35 +1,30 @@
 # Main links for different languages
 main:
-  en:  # English Navigation
-    - title: "About"
-      url: /en/about/
-    - title: "Categories"
-      url: /en/categories/
-    - title: "Tags"
-      url: /en/tags/
-    - title: "Yearly Posts"
-      url: /en/posts/
-    # Additional English links can be uncommented and added as needed
-    # - title: "Sample Posts"
-    #   url: /en/year-archive/
-    # - title: "Sample Collections"
-    #   url: /en/collection-archive/
-    # - title: "Sitemap"
-    #   url: /en/sitemap/
+  - title: "Introduction"
+    url: /ko/about/
+  - title: "Explore Categories"
+    url: /categories/
+  - title: "Explore Tags"
+    url: /tags/
+  - title: "Posts by Year"
+    url: /posts/
 
-  ko:  # Korean Navigation
-    - title: "소개"
-      url: /ko/about/
-    - title: "카테고리"
-      url: /ko/categories/
-    - title: "태그"
-      url: /ko/tags/
-    - title: "연도별 포스트"
-      url: /ko/posts/
-    # Additional Korean links can be uncommented and added as needed
-    # - title: "샘플 포스트"
-    #   url: /ko/year-archive/
-    # - title: "샘플 컬렉션"
-    #   url: /ko/collection-archive/
-    # - title: "사이트맵"
-    #   url: /ko/sitemap/
+ko:  # Korean Navigation
+  - title: "블로그 소개"
+    url: /ko/about/
+  - title: "카테고리별 탐색"
+    url: /categories/
+  - title: "태그별 보기"
+    url: /tags/
+  - title: "연도별 글 목록"
+    url: /posts/
+
+en:  # English Navigation
+  - title: "Introduction"
+    url: /en/about/
+  - title: "Explore Categories"
+    url: /categories/
+  - title: "Explore Tags"
+    url: /tags/
+  - title: "Posts by Year"
+    url: /posts/
