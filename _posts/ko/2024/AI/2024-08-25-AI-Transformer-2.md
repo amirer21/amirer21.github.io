@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Transformer
+title: 인공지능 - Transformer (2)
 author_profile: true
 read_time: true
 comments: true

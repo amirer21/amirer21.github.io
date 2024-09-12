@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Transformer
+title: 인공지능 - Transformer (2)
 author_profile: true
 read_time: true
 comments: true
@@ -14,7 +14,7 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: 인공지능 - Transformer
+description: 인공지능 - Transformer (2)
 article_tag1: AI
 article_tag2: Transformer
 article_tag3: 
