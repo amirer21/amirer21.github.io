@@ -2,9 +2,9 @@
 main:
   - title: "Introduction"
     url: /ko/about/
-  - title: "Explore Categories"
+  - title: "Categories"
     url: /categories/
-  - title: "Explore Tags"
+  - title: "Tags"
     url: /tags/
   - title: "Posts by Year"
     url: /posts/
@@ -22,9 +22,9 @@ ko:  # Korean Navigation
 en:  # English Navigation
   - title: "Introduction"
     url: /en/about/
-  - title: "Explore Categories"
+  - title: "Categories"
     url: /categories/
-  - title: "Explore Tags"
+  - title: "Tags"
     url: /tags/
   - title: "Posts by Year"
     url: /posts/
