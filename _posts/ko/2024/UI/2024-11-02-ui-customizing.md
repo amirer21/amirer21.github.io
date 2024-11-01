@@ -1,5 +1,5 @@
 ---
-title: UI 커스터 마이징
+title: UI Customization JavaScript
 author_profile: true
 read_time: true
 comments: true
@@ -8,17 +8,18 @@ related: true
 categories:
 - JS
 tags:
-- UI
 - JS
+- UI
+- 
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: UI 커스터 마이징
-article_tag1: UI
-article_tag2: JS
+description: 
+article_tag1: JS
+article_tag2: UI
 article_tag3: 
 article_section: 
-meta_keywords: UI, JS
+meta_keywords: JS, UI
 last_modified_at: '2024-11-02 21:00:00 +0800'
 ---
 
