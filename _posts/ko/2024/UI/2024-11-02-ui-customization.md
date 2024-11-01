@@ -6,7 +6,6 @@ comments: true
 share: true
 related: true
 categories:
-- UI
 - JS
 tags:
 - UI
