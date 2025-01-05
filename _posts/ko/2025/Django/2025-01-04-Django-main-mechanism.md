@@ -1,5 +1,5 @@
 ---
-title: Django - 주요 매커니즘즘
+title: Django - 주요 매커니즘
 author_profile: true
 read_time: true
 comments: true
@@ -10,15 +10,15 @@ categories:
 tags:
 - Django
 - Python
-- 
+- Framework
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: Django - 주요 매커니즘즘
+description: Django 주요 매커니즘
 article_tag1: Django
 article_tag2: Python
-article_tag3: 
-article_section: 
+article_tag3: Framework
+article_section: Django
 meta_keywords: Django, Python
 last_modified_at: '2025-01-04 21:00:00 +0800'
 ---
@@ -162,10 +162,12 @@ Django의 템플릿 시스템은 동적인 HTML 페이지를 생성하기 위한
 ### **작동 방식**
 1. **템플릿 작성**:
    - HTML 파일 내에서 Django 템플릿 태그와 변수를 사용합니다.
+   {% raw %}
      ```html
      <h1>{{ post.title }}</h1>
      <p>{{ post.content }}</p>
      ```
+   {% endraw %}
 
 2. **템플릿 렌더링**:
    - 뷰에서 데이터를 템플릿에 전달하고 HTML을 생성합니다.
@@ -179,6 +181,7 @@ Django의 템플릿 시스템은 동적인 HTML 페이지를 생성하기 위한
 
 3. **템플릿 상속**:
    - 템플릿 상속을 통해 공통 레이아웃을 재사용할 수 있습니다.
+   {% raw %}
      ```html
      <!-- base.html -->
      <html>
@@ -187,7 +190,9 @@ Django의 템플릿 시스템은 동적인 HTML 페이지를 생성하기 위한
      </body>
      </html>
      ```
+   {% endraw %}
 
+   {% raw %}
      ```html
      <!-- child.html -->
      {% extends "base.html" %}
@@ -195,6 +200,7 @@ Django의 템플릿 시스템은 동적인 HTML 페이지를 생성하기 위한
          <h1>Child Content</h1>
      {% endblock %}
      ```
+   {% endraw %}
 
 ---
 
@@ -216,13 +222,15 @@ Django의 캐싱 메커니즘은 성능을 최적화하기 위해 데이터베�
 
 2. **템플릿 캐싱**:
    템플릿의 특정 부분만 캐싱.
+   {% raw %}
    ```html
    {% load cache %}
    {% cache 500 some_key %}
        Cached Content
    {% endcache %}
    ```
-
+   {% endraw %}
+   
 3. **데이터베이스 캐싱**:
    쿼리셋 결과를 캐싱하여 데이터베이스 부하를 줄입니다.
 
@@ -283,3 +291,6 @@ Django는 파일 업로드와 관리를 위한 간단한 도구를 제공합니�
 ---
 
 이 외에도 Django는 관리자(Admin), 국제화(I18N), REST API 통합 등 많은 강력한 기능을 제공합니다.
+
+
+

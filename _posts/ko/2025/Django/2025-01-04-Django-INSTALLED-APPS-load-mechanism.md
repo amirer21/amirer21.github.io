@@ -10,11 +10,10 @@ categories:
 tags:
 - Django
 - Python
-- 
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: Django - 프로젝트 설정 파일에서 `INSTALLED_APPS` 읽기 메커니즘
+description: Django 프로젝트 설정 파일에서 `INSTALLED_APPS` 읽기 메커니즘
 article_tag1: Django
 article_tag2: Python
 article_tag3: 
