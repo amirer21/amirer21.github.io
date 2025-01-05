@@ -1,5 +1,5 @@
 ---
-title: Django - 커스텀 명령어 탐지 메커니즘 01
+title: Django - 커스텀 명령어 탐지 메커니즘 01 -  manage.py의 역할과 자동 탐지 메커니즘 원리
 author_profile: true
 read_time: true
 comments: true
@@ -13,7 +13,7 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: Django 커스텀 명령어 탐지 메커니즘
+description: 커스텀 명령어 탐지 메커니즘 01 -  manage.py의 역할과 자동 탐지 메커니즘 원리
 article_tag1: Django
 article_tag2: Python
 article_tag3: 

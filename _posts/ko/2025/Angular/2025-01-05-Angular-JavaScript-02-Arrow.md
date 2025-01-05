@@ -1,5 +1,5 @@
 ---
-title: Angular - JavaScript 화살표 함수(Arrow Function)
+title: Angular - JavaScript 02 - 화살표 함수(Arrow Function)
 author_profile: true
 read_time: true
 comments: true
@@ -14,7 +14,7 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: Angular - JavaScript 화살표 함수(Arrow Function)
+description: Angular - JavaScript 02 - 화살표 함수(Arrow Function)
 article_tag1: Angular
 article_tag2: NodeJS
 article_tag3: 

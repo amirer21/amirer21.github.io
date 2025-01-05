@@ -1,5 +1,5 @@
 ---
-title: Django - 커스텀 명령어 탐지 메커니즘 02 - 실행 과정
+title: Django - 커스텀 명령어 탐지 메커니즘 02 - manage.py의 역할과 자동 탐지 메커니즘 과정
 author_profile: true
 read_time: true
 comments: true
@@ -13,7 +13,7 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: Django 커스텀 명령어 탐지 메커니즘
+description: Django - 커스텀 명령어 탐지 메커니즘 02 - manage.py의 역할과 자동 탐지 메커니즘 과정
 article_tag1: Django
 article_tag2: Python
 article_tag3: 
@@ -30,7 +30,7 @@ last_modified_at: '2025-01-04 21:00:00 +0800'
 
 ## **Django에서 명령어 실행 과정**
 
-1. **`manage.py` 실행**
+### 1. **`manage.py` 실행**
    - 사용자가 `python manage.py dosomething` 명령어를 실행하면 Django의 `manage.py` 스크립트가 실행됩니다.
    - `manage.py`의 주요 역할은 사용자 입력을 받아 Django의 명령어 실행 시스템에 전달하는 것입니다.
 
@@ -49,20 +49,20 @@ last_modified_at: '2025-01-04 21:00:00 +0800'
 
 ---
 
-2. **`execute_from_command_line` 호출**
+### 2. **`execute_from_command_line` 호출**
    - `execute_from_command_line()` 함수는 `sys.argv`에서 명령어 이름(`dosomething`)을 추출합니다.
    - 이 함수는 Django의 명령어 처리 시스템을 호출하여 입력된 명령어를 처리합니다.
 
 ---
 
-3. **명령어 검색**
+### 3. **명령어 검색**
    Django는 명령어 이름(`dosomething`)을 기반으로 다음 위치에서 명령어를 검색합니다:
 
-   ### **(1) 기본 Django 명령어 확인**
+   **(1) 기본 Django 명령어 확인**
    - Django는 내장 명령어(예: `runserver`, `migrate`, `createsuperuser`)에서 `dosomething` 명령어가 있는지 확인합니다.
    - 찾을 수 없으면 다음 단계로 넘어갑니다.
 
-   ### **(2) `INSTALLED_APPS`의 앱 탐색**
+   **(2) `INSTALLED_APPS`의 앱 탐색**
    Django는 프로젝트의 `INSTALLED_APPS` 설정에 등록된 모든 앱의 디렉터리를 순회하며 `management/commands/` 폴더를 탐색합니다.
 
    - **경로 예시**:
@@ -73,11 +73,11 @@ last_modified_at: '2025-01-04 21:00:00 +0800'
 
 ---
 
-4. **`Command` 클래스 로드**
+### 4. **`Command` 클래스 로드**
    - `dosomething.py` 파일이 발견되면 Django는 해당 파일의 `Command` 클래스를 로드합니다.
    - 이 클래스는 반드시 `BaseCommand`를 상속받아야 하며 명령어 실행 로직은 `handle()` 메서드에 작성됩니다.
 
-   #### **`dosomething.py` 예시**
+   (1) **`dosomething.py` 예시**
    ```python
    from django.core.management.base import BaseCommand
 
@@ -90,12 +90,12 @@ last_modified_at: '2025-01-04 21:00:00 +0800'
 
 ---
 
-5. **명령어 실행**
+### 5. **명령어 실행**
    - Django는 `Command` 클래스의 `handle()` 메서드를 호출하여 명령어를 실행합니다.
    - `handle()` 메서드 내부의 로직이 실행되어 사용자 정의 작업을 수행합니다.
    - 명령어 실행 중 발생하는 출력은 `self.stdout.write()` 또는 `self.stderr.write()`를 통해 사용자에게 표시됩니다.
 
-   #### **명령어 실행 결과**
+   (1) **명령어 실행 결과**
    ```bash
    python manage.py dosomething
    ```
