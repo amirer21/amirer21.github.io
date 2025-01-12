@@ -1,5 +1,5 @@
 ---
-title: 알고리즘 03 - (기본 패턴 01) - DFS(Depth-First Search)와 BFS(Breadth-First Search)의 차이
+title: 알고리즘 03 - (기본 패턴 02) - DFS(Depth-First Search)와 BFS(Breadth-First Search)의 차이
 author_profile: true
 read_time: true
 comments: true
