@@ -10,14 +10,13 @@ categories:
 tags:
 - iOS
 - PyMobileDevice3
-- 
 toc: true
 toc_sticky: true
 toc_label: 목차
 description: 
 article_tag1: iOS
 article_tag2: PyMobileDevice3
-article_tag3: 
+article_tag3: automation
 article_section: iOS
 meta_keywords: iOS, PyMobileDevice3
 last_modified_at: '2025-01-19 21:00:00 +0800'
