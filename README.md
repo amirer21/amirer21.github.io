@@ -13,10 +13,21 @@
 ## 프로필 설정
 > _config.yml 파일
 
+
+---------------
+
 ## sitemap.xml
 
 - Gemfile과 동일한 경로에 sitemap.xml파일 생성
 - 생성해주는 사이트 :  https://www.xml-sitemaps.com/
+
+### 경로
+
+- 프로젝트 root 경로
+
+
+
+---------------
 
 ## favicon 추가
 
