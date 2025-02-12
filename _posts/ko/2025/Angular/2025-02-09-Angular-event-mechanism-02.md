@@ -128,12 +128,13 @@ incrementCounter(event: MouseEvent) {
 ---
 
 ## 📌 **5. Angular 이벤트 매커니즘 요약**
+
 | 단계 | 설명 |
 |------|------|
 | **1. 이벤트 발생** | 사용자가 버튼 클릭, 입력, 키보드 입력 등의 이벤트 발생 |
-| **2. 브라우저 이벤트 객체 생성** | `MouseEvent`, `KeyboardEvent` 등 브라우저가 이벤트 객체 생성 |
-| **3. Angular 이벤트 바인딩 실행** | `(click)="onClick($event)"` 와 같은 바인딩이 트리거됨 |
-| **4. `$event` 전달** | Angular가 `$event`를 이벤트 핸들러 함수에 자동으로 전달 |
+| **2. 브라우저 이벤트 객체 생성** | MouseEvent, KeyboardEvent 등 브라우저가 이벤트 객체 생성 |
+| **3. Angular 이벤트 바인딩 실행** | (click)="onClick($event)" 와 같은 바인딩이 트리거됨 |
+| **4. $event 전달** | Angular가 $event를 이벤트 핸들러 함수에 자동으로 전달 |
 | **5. Zone.js 감지** | Zone.js가 이벤트 실행을 가로채고 Angular에 알림 |
 | **6. Change Detection 실행** | Angular가 변경 사항을 감지하고 UI 업데이트 수행 |
 | **7. UI 업데이트** | 변경된 데이터를 반영하여 DOM을 다시 렌더링 |

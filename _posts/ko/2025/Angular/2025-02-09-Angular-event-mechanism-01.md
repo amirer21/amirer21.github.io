@@ -127,13 +127,14 @@ receiveMessage(message: string) {
 ---
 
 ### ✅ **2) `$event`는 브라우저의 표준 이벤트 객체를 포함**
-| 이벤트 타입  | `$event`의 타입 | `$event` 내부 속성 예시 |
+
+| 이벤트 타입  | $event의 타입 | $event 내부 속성 예시 |
 |-------------|--------------|------------------|
-| `click` | `MouseEvent` | `clientX`, `clientY`, `target` |
-| `keydown` | `KeyboardEvent` | `key`, `code`, `altKey` |
-| `input` | `InputEvent` | `target.value` |
-| `submit` | `SubmitEvent` | `preventDefault()` |
-| `change` | `Event` | `target.value` |
+| click | MouseEvent | clientX, clientY, target |
+| keydown | KeyboardEvent | key, code, altKey |
+| input | InputEvent | target.value |
+| submit | SubmitEvent | preventDefault() |
+| change | Event | target.value |
 
 ---
 

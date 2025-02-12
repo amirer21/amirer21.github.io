@@ -68,12 +68,13 @@ onInput(event: InputEvent) {
 ---
 
 ### ✅ **2. 이벤트 객체의 주요 속성**
-| 이벤트 타입  | 속성 예시 | 설명 |
-|-------------|---------|------|
-| `MouseEvent` | `event.clientX` | 클릭한 마우스 X 좌표 |
-| `KeyboardEvent` | `event.key` | 눌린 키 값 |
-| `InputEvent` | `event.target.value` | 입력 필드의 값 |
-| `FocusEvent` | `event.target` | 포커스를 받은 요소 |
+
+| 이벤트 타입     | 속성 예시            | 설명              |
+|---------------|-------------------|------------------|
+| MouseEvent   | event.clientX      | 클릭한 마우스 X 좌표 |
+| KeyboardEvent | event.key          | 눌린 키 값         |
+| InputEvent   | event.target.value | 입력 필드의 값      |
+| FocusEvent   | event.target       | 포커스를 받은 요소  |
 
 ---
 
@@ -123,12 +124,14 @@ onInputChange(event: InputEvent) {
 ---
 
 ### ✅ **Angular의 이벤트 바인딩과 표준 이벤트 객체 차이점**
-| 구분 | JavaScript | Angular |
-|------|-----------|---------|
-| 이벤트 등록 방식 | `element.addEventListener('click', handler)` | `(click)="handler($event)"` |
-| 이벤트 객체 접근 | `event` | `$event` |
-| 기본 이벤트 방지 | `event.preventDefault()` | `$event.preventDefault()` |
-| 커스텀 이벤트 | `new Event('custom')` | `@Output() EventEmitter` |
+
+| 구분          | JavaScript                                   | Angular                         |
+|--------------|-------------------------------------------|--------------------------------|
+| 이벤트 등록 방식 | element.addEventListener('click', handler) | (click)="handler($event)"     |
+| 이벤트 객체 접근 | event                                   | $event                        |
+| 기본 이벤트 방지 | event.preventDefault()                 | $event.preventDefault()       |
+| 커스텀 이벤트  | new Event('custom')                    | @Output() EventEmitter        |
+
 
 ---
 
