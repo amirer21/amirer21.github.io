@@ -176,6 +176,138 @@ minimal_mistakes_skin    : "air"
 
 -------------------------------------------
 
+(2025.02.15)
+### ** GitBlog에 Simple-Jekyll-Search 기반 검색 기능 추가**
+**Simple-Jekyll-Search**를 사용하여 Jekyll 기반 블로그에 검색 기능을 추가하였습니다.  
+아래는 구현된 파일과 주요 변경 사항입니다.
+
+---
+
+## ** 구현 순서**
+1. **검색 데이터를 위한 `search.json` 파일 생성**
+2. **검색 입력창 및 결과 리스트 UI 추가 (`search.html`)**
+3. **검색 스타일 적용 (`search.css`)**
+4. **`default.html`에 검색 기능 연동**
+5. **Jekyll 설정 파일 수정 (`_config.yml` 등)**
+6. **Jekyll 빌드 및 테스트 (`bundle exec jekyll serve`)**
+
+---
+
+## **📂 파일별 코드 설명**
+### **1️⃣ `default.html` (레이아웃)**
+ **파일:** `/home/hong/amirer21.github.io/_layouts/default.html`  
+ **추가 내용:** 검색 입력창과 `Simple-Jekyll-Search` 스크립트 추가  
+```html
+<input type="text" id="search-input" placeholder="검색어를 입력하세요...">
+<ul id="results-container"></ul>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/assets/search.json',
+    searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+    noResultsText: '검색 결과가 없습니다.',
+    fuzzy: true
+  });
+</script>
+```
+
+---
+
+### **2️⃣ `search.html` (검색 페이지)**
+ **파일:** `/home/hong/amirer21.github.io/_pages/search.html`  
+ **추가 내용:** 검색 전용 페이지 추가  
+```html
+---
+layout: default
+title: 검색
+permalink: /search/
+---
+
+<h1>검색</h1>
+<input type="text" id="search-input" placeholder="검색어를 입력하세요...">
+<ul id="results-container"></ul>
+```
+
+---
+
+### **3️⃣ `search.css` (검색 스타일)**
+ **파일:** `/home/hong/amirer21.github.io/assets/css/search.css`  
+ **추가 내용:** 검색창 스타일 추가  
+```css
+#search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#results-container {
+  list-style: none;
+  padding: 0;
+}
+
+#results-container li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+#results-container li a {
+  text-decoration: none;
+  color: #333;
+}
+```
+
+---
+
+### **4️⃣ `search.json` (검색 데이터 생성)**
+ **파일:** `/home/hong/amirer21.github.io/assets/search.json`  
+ **추가 내용:** JSON 파일 자동 생성 (Liquid 사용)  
+```liquid
+---
+layout: null
+---
+
+[
+  {% for post in site.posts %}
+  {
+    "title": "{{ post.title | replace: '\"', '\\"' | json_escape }}",
+    "url": "{{ post.url | relative_url }}",
+    "date": "{{ post.date | date: '%Y-%m-%d' }}",
+    "content": "{{ post.content | strip_html | truncatewords: 50 | json_escape }}",
+    "tags": "{% if post.tags %}{{ post.tags | join: ', ' | json_escape }}{% else %}null{% endif %}"
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+```
+ **설명:**  
+- 블로그 글(`site.posts`)을 검색 대상 데이터로 JSON 생성  
+- `title`, `url`, `date`, `content`, `tags` 포함  
+- JSON에서 특수 문자(`"`, `$`, `:` 등)를 올바르게 Escape 처리  
+
+---
+
+### **5️⃣ `_config.yml` (Jekyll 설정)**
+ **파일:**  
+- `/home/hong/amirer21.github.io/_config.yml`
+- `/home/hong/amirer21.github.io/_config.ko.yml`
+- `/home/hong/amirer21.github.io/_config.en.yml`  
+ **추가 내용:** `search.json`을 포함하도록 설정  
+```yaml
+include:
+  - assets/search.json
+```
+ **설명:**  
+- Jekyll 빌드시 `search.json`을 `_site/` 디렉토리에 포함하도록 설정  
+
+## **추가 내용 요약약**
+- **Simple-Jekyll-Search**를 활용하여 검색 기능 추가  
+- **검색 UI 및 JSON 데이터 자동 생성**  
+
+-------------------------------------------
+
 # 설치 방법
 
 ### 1. Ruby 및 관련 도구 설치

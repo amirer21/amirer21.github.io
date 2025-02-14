@@ -1,0 +1,21 @@
+---
+layout: default
+title: 검색
+---
+
+<h1>검색</h1>
+<input type="text" id="search-input" placeholder="검색어를 입력하세요..." />
+<ul id="results-container"></ul>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.10.0/simple-jekyll-search.min.js"></script>
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/assets/search.json',
+        searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+        noResultsText: '검색 결과가 없습니다.',
+        limit: 10,
+        fuzzy: false
+    });
+</script>
