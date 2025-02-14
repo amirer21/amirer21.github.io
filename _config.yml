@@ -55,9 +55,10 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr  # `Simple-Jekyll-Search`는 Lunr.js를 기반으로 동작하므로 lunr 사용
+#search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -159,9 +160,15 @@ footer:
 include:
   - .htaccess
   - _pages
+  - assets/search.json
+
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - .vscode-server/
+  - .history/
+  - .vscode/
   - vendor
   - .asset-cache
   - .bundle
@@ -303,6 +310,7 @@ defaults:
       comments: true
       share: true
       related: true
+      search: true
       
   # 한글 포스트들에 대한 디폴트 설정
   - scope:

@@ -1,0 +1,36 @@
+.search-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  #search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #results-container {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #results-container li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #results-container li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  #results-container li a:hover {
+    text-decoration: underline;
+  }
+  

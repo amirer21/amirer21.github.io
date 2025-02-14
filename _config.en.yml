@@ -4,6 +4,10 @@ title: "My English Site"
 default_lang: en
 permalink: /en/:year/:categories/:title/  # year를 categories 앞에 위치시킴
 
+search                   : true
+search_full_content      : true
+search_provider          : lunr
+
 collections:
   posts:
     output: true
