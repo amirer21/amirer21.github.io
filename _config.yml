@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "amiro"
   avatar           : "/assets/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I hope my writing will be helpful to someone.<br><br>처음의 제가 그러했듯이<br> 제가 정리한 글들이 <br> 누군가에게 조금이나마 <br> 도움이 되기를 바라며"
+  bio              : "I hope my writing will be helpful to someone.<br><br>처음 블로그를 찾아 헤맸던 저처럼 <br>이곳에서 정리한 글들이<br>누군가에게 작은 길잡이가 되기를 바랍니다.<br>부족하지만 제가 정리한 글들이<br>누군가에게 작은 도움이 된다면 기쁘겠습니다."
   location         : "Republic of Korea"
   email            : #"amirer21@gmail.com"
   tistory          : "https://dev-hongik-ingan.tistory.com/"
