@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain 파이프라인 체인 만들기: 번역하고 요약하는 워크플로우
+title: 인공지능 - LangChain 파이프라인 체인 만들기, 번역하고 요약하는 워크플로우
 author_profile: true
 read_time: true
 comments: true
@@ -18,7 +18,7 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: 인공지능 - LangChain 파이프라인 체인 만들기: 번역하고 요약하는 워크플로우
+description: 인공지능 - LangChain 파이프라인 체인 만들기, 번역하고 요약하는 워크플로우
 article_tag1: AI
 article_tag2: GPT
 article_tag3: LLM
@@ -28,7 +28,7 @@ last_modified_at: '2025-04-28 21:00:00 +0800'
 ---
 
 
-# 🛠 LangChain 파이프라인 체인 만들기: 번역하고 요약하는 워크플로우
+# 🛠 LangChain 파이프라인 체인 만들기, 번역하고 요약하는 워크플로우
 
 생성형 AI를 다루다 보면  
 "입력 문장을 번역하고, 요약하고, 후처리까지"  
