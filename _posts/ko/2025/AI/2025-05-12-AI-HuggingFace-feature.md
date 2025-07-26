@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Hugging Face 핵심 기능 정리 – LangChain을 시작하는 개발자를 위한 가이드
+title: (Hugging Face) Hugging Face 핵심 기능 정리 – LangChain을 시작하는 개발자를 위한 가이드
 author_profile: true
 read_time: true
 comments: true

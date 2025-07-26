@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Stable Diffusion + LoRA 실습: 연필 스케치 스타일 이미지 생성
+title: (Stable Diffusion + LoRA) 연필 스케치 스타일 이미지 생성
 author_profile: true
 read_time: true
 comments: true
@@ -20,7 +20,7 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: 인공지능 - Stable Diffusion + LoRA 실습: 연필 스케치 스타일 이미지 생성
+description: 인공지능 - Stable Diffusion + LoRA 실습 - 연필 스케치 스타일 이미지 생성
 article_tag1: AI
 article_tag2: StableDiffusion
 article_tag3: LLM

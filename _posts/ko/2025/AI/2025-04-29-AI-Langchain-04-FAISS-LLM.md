@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - FAISS (Facebook AI Similarity Search), 대규모 벡터 검색의 핵심
+title: (LangChain) FAISS (Facebook AI Similarity Search), 대규모 벡터 검색의 핵심
 author_profile: true
 read_time: true
 comments: true

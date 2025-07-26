@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - FAISS를 이용한 PDF 문서 검색 원리 - 실습 예제로 쉽게 이해하기
+title: (LangChain) FAISS를 이용한 PDF 문서 검색 원리 - 실습 예제로 쉽게 이해하기
 author_profile: true
 read_time: true
 comments: true

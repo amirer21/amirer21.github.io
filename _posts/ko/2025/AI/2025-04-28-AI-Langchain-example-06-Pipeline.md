@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain 파이프라인 체인 만들기, 번역하고 요약하는 워크플로우
+title: (LangChain) LangChain 파이프라인 체인 만들기, 번역하고 요약하는 워크플로우
 author_profile: true
 read_time: true
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Langchain에서 chain_type 선택하기 - 문서 처리 방식 이해하기
+title: (LangChain) Langchain에서 chain_type 선택하기 - 문서 처리 방식 이해하기
 author_profile: true
 read_time: true
 comments: true

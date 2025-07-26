@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain StateGraph를 활용한 번역 + 요약 파이프라인 만들기
+title: (LangChain) LangChain StateGraph를 활용한 번역 + 요약 파이프라인 만들기
 author_profile: true
 read_time: true
 comments: true

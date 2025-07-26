@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - YOLOv8을 활용한 이미지 객체 탐지 실습
+title: (Hugging Face) YOLOv8을 활용한 이미지 객체 탐지 실습
 author_profile: true
 read_time: true
 comments: true

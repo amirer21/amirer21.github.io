@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - stuff란 무엇인가?
+title: (LangChain) stuff란 무엇인가?
 author_profile: true
 read_time: true
 comments: true

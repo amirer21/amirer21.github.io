@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain PromptTemplate - Partial Variables를 활용해보기
+title: (LangChain) LangChain PromptTemplate - Partial Variables를 활용해보기
 author_profile: true
 read_time: true
 comments: true

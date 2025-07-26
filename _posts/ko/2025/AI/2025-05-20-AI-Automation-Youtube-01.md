@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - 유튜브 영상 자막을 요약해 텍스트 파일로 저장하는 자동화 실습
+title: (Automation) - 유튜브 영상 자막을 요약해 텍스트 파일로 저장하는 자동화 실습
 author_profile: true
 read_time: true
 comments: true

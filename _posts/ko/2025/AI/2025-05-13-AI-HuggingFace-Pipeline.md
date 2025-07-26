@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Hugging Face 핵심 클래스 비교 정리
+title: (Hugging Face) Hugging Face 핵심 클래스 비교 정리
 author_profile: true
 read_time: true
 comments: true

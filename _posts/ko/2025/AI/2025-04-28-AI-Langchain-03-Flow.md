@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain으로 스타트업 창업 가이드 문서 검색 시스템 만들기
+title: (LangChain) LangChain으로 스타트업 창업 가이드 문서 검색 시스템 만들기
 author_profile: true
 read_time: true
 comments: true

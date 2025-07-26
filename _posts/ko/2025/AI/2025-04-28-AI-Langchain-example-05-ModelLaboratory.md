@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain ModelLaboratory로 여러 LLM을 비교해보자!
+title: (LangChain) LangChain ModelLaboratory로 여러 LLM을 비교해보자!
 author_profile: true
 read_time: true
 comments: true

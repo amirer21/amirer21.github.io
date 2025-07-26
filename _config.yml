@@ -297,6 +297,9 @@ compress_html:
 collections:
   posts:
     output: true
+  pages:
+    output: true
+    permalink: /:name/
 
 # Defaults
 defaults:

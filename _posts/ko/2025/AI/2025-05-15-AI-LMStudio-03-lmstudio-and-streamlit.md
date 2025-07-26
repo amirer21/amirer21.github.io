@@ -1,5 +1,5 @@
 ---
-title: 인공지능 -LangChain과 LM Studio로 Streamlit 실시간 답변 UI 만들기
+title: (LM Studio) LangChain과 LM Studio로 Streamlit 실시간 답변 UI 만들기
 author_profile: true
 read_time: true
 comments: true

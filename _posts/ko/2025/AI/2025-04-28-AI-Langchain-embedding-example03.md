@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - 텍스트 임베딩과 유사도 검색의 원리를 이해하기 - 간단한 FAISS 실습
+title: (LangChain) 텍스트 임베딩과 유사도 검색의 원리를 이해하기 - 간단한 FAISS 실습
 author_profile: true
 read_time: true
 comments: true

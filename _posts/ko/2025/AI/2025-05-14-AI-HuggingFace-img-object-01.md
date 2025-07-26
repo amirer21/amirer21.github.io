@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Hugging Face를 활용한 이미지 객체 탐지 실습
+title: (Hugging Face) Hugging Face를 활용한 이미지 객체 탐지 실습
 author_profile: true
 read_time: true
 comments: true
