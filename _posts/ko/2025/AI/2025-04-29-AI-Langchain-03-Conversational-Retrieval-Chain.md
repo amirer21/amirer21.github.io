@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Langchain을 활용한 대화형 질문 응답 시스템 구축하기 (Conversational Retrieval Chain)
+title: (LangChain) Langchain을 활용한 대화형 질문 응답 시스템 구축하기 (Conversational Retrieval Chain)
 author_profile: true
 read_time: true
 comments: true

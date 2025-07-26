@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Hugging Face 멀티모달 파이프라인 실습 예제 정리
+title: (Hugging Face) Hugging Face 멀티모달 파이프라인 실습 예제 정리
 author_profile: true
 read_time: true
 comments: true

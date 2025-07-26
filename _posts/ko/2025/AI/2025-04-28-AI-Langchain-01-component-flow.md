@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain 구성요소 완벽 이해하기 - 한눈에 보는 흐름
+title: (LangChain) LangChain 구성요소 완벽 이해하기 - 한눈에 보는 흐름
 author_profile: true
 read_time: true
 comments: true

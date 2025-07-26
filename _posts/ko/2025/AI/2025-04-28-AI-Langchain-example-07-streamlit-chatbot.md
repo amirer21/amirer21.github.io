@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain 세션 기반 대화 메모리 만들기 — RunnableWithMessageHistory
+title: (LangChain) LangChain 세션 기반 대화 메모리 만들기 — RunnableWithMessageHistory
 author_profile: true
 read_time: true
 comments: true

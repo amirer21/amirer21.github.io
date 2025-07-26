@@ -1,0 +1,14 @@
+---
+layout: default
+title: 목차
+---
+
+<h1>📖 전체 목차</h1>
+<ul>
+{% assign files = site.static_files | where: "extname", ".md" %}
+{% for file in files %}
+  <li>
+    <a href="{{ file.path | relative_url }}">{{ file.path }}</a>
+  </li>
+{% endfor %}
+</ul>

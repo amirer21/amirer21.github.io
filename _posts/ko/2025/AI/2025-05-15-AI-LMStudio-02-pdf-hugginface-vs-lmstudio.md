@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain으로 PDF 문서 요약하기 - Hugging Face vs LM Studio 실습 비교실시간 웹캠 객체 인식 - YOLOv8을 활용한 AI 시각 시스템
+title: (LM Studio) LangChain으로 PDF 문서 요약하기 - Hugging Face vs LM Studio 실습 비교실시간 웹캠 객체 인식 - YOLOv8을 활용한 AI 시각 시스템
 author_profile: true
 read_time: true
 comments: true

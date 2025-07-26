@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain으로 여행지 소개 문서 요약 시스템 만들기 — 구조와 원리 완벽 해설
+title: (LangChain) LangChain으로 여행지 소개 문서 요약 시스템 만들기 — 구조와 원리 완벽 해설
 author_profile: true
 read_time: true
 comments: true

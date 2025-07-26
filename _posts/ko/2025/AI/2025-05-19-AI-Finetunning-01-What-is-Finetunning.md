@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - OpenAI 파인튜닝(Fine-tuning)이 뭐길래?
+title: (Fine-tuning) - OpenAI 파인튜닝(Fine-tuning)이 뭐길래?
 author_profile: true
 read_time: true
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - 실시간 웹캠 객체 인식 - YOLOv8을 활용한 AI 시각 시스템LangChain과 LM Studio로 로컬 LLM 스트리밍 실습하기
+title: (LM Studio) 실시간 웹캠 객체 인식 - YOLOv8을 활용한 AI 시각 시스템LangChain과 LM Studio로 로컬 LLM 스트리밍 실습하기
 author_profile: true
 read_time: true
 comments: true

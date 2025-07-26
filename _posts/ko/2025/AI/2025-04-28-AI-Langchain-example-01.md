@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangChain이란 무엇인가? 쉽게 예제와 함께 알아보기
+title: (LangChain) LangChain이란 무엇인가? 쉽게 예제와 함께 알아보기
 author_profile: true
 read_time: true
 comments: true

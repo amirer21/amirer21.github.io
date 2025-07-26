@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - FAISS로 해리포터 책을 의미 검색해보기 — 원리부터 코드까지 쉽게 이해하기
+title: (LangChain) FAISS로 해리포터 책을 의미 검색해보기 — 원리부터 코드까지 쉽게 이해하기
 author_profile: true
 read_time: true
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Langchain을 활용한 질문 응답 시스템 구축 (벡터 DB와 GPT 모델 결합)
+title: (LangChain) Langchain을 활용한 질문 응답 시스템 구축 (벡터 DB와 GPT 모델 결합)
 author_profile: true
 read_time: true
 comments: true

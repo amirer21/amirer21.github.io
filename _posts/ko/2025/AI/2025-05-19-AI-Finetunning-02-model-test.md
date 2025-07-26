@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - 나만의 ChatGPT 만들기
+title: (Fine-tuning) - 나만의 ChatGPT 만들기
 author_profile: true
 read_time: true
 comments: true

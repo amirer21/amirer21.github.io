@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - GPT란 무엇인가? 그리고 왜 AI 번역 결과는 매번 다를까?
+title: (LangChain) GPT란 무엇인가? 그리고 왜 AI 번역 결과는 매번 다를까?
 author_profile: true
 read_time: true
 comments: true

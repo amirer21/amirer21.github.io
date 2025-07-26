@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - Hugging Face와 LangChain을 활용한 이미지 캡셔닝 처리 예제 (ImageCaptionLoader)
+title: (LangChain) Hugging Face와 LangChain을 활용한 이미지 캡셔닝 처리 예제 (ImageCaptionLoader)
 author_profile: true
 read_time: true
 comments: true

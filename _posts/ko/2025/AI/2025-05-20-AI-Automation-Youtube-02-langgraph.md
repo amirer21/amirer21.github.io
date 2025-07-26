@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - LangGraph로 구현하는 유튜브 자막 자동 처리 파이프라인
+title: (Automation) - LangGraph로 구현하는 유튜브 자막 자동 처리 파이프라인
 author_profile: true
 read_time: true
 comments: true

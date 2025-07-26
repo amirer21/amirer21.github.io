@@ -1,5 +1,5 @@
 ---
-title: 인공지능 - 실시간 웹캠 객체 인식 - YOLOv8을 활용한 AI 시각 시스템
+title: (Hugging Face) 실시간 웹캠 객체 인식 - YOLOv8을 활용한 AI 시각 시스템
 author_profile: true
 read_time: true
 comments: true
