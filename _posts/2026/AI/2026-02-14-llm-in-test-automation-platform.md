@@ -249,6 +249,25 @@ print(analysis)
 # 결과를 junit report 확장 필드 또는 별도 DB에 저장
 ```
 
+### 4.4 코드 설명 (라이브러리 기능 중심)
+
+- `FastAPI`
+  - 실패 로그 분석 API를 빠르게 구성하고, 타입 기반 검증과 OpenAPI 문서 생성을 자동화합니다.
+- `pydantic`
+  - `TestLogInput`, `LLMAnalysisResult` 스키마를 강제해 입력 누락/타입 오류를 초기 단계에서 차단합니다.
+- `openai` SDK
+  - LLM 호출, 모델 파라미터 제어(`temperature`, `max_tokens`), 응답 파싱에 사용합니다.
+- `response_format={"type": "json_object"}`
+  - 분석 결과를 JSON으로 강제해 대시보드/티켓 시스템 연동 시 파싱 실패를 줄입니다.
+- `requests`
+  - CI 후처리 단계에서 내부 분석 API로 결과를 전달하는 클라이언트 역할을 담당합니다.
+
+### 4.5 실행 팁
+
+- 요청 단위로 `request_id`를 생성해 로그와 분석 결과를 연결하세요.
+- 1차 모델(`gpt-4.1-mini`) + 재분석 모델(고성능) 2단 라우팅을 두면 비용을 줄일 수 있습니다.
+- 모델 출력 JSON은 저장 전 `schema validation`을 한 번 더 적용해 운영 안정성을 확보하세요.
+
 ---
 
 ## 5. 실제 운영 시 고려사항
