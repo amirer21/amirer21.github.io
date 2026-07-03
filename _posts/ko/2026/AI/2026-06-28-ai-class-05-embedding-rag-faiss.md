@@ -36,18 +36,16 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 RAG는 Retrieval Augmented Generation의 약자입니다.
 한국어로 풀면 "검색으로 보강한 생성" 정도로 이해할 수 있습니다.
 
-강의 폴더에서는 다음 파일들이 이 주제에 해당합니다.
+강의 폴더에서는 다음 실습들이 이 주제에 해당합니다.
 
-```text
-17_20250421_01_embedding.py
-17_20250421_01_embedding02.py
-17_20250421_01_embedding03_chunk_and_embedding.py
-19_20250422_01_base_code_00.py
-25.langchain_20250428_02_graph.py
-27.langchain_20250430_02_web_doc_summary_retrieval.py
-27.langchain_20250430_03_rerank.py
-30.rag대화식챗봇.py
-```
+- 문장을 임베딩 벡터로 변환
+- 문장 유사도 비교
+- 긴 문서를 청크로 나누고 임베딩
+- PDF 문서 기반 RAG 구성
+- FAISS 벡터 저장소 검색
+- 웹 문서 요약과 검색
+- 검색 결과 리랭킹
+- 대화형 RAG 챗봇
 
 ## RAG 전체 흐름
 

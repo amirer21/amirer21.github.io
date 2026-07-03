@@ -31,18 +31,14 @@ LangGraph는 AI 작업을 그래프 구조로 연결하는 라이브러리입니
 
 LangChain의 Chain이 보통 일직선 흐름에 가깝다면, LangGraph는 여러 단계의 상태를 가지고 분기, 반복, 병렬 처리에 가까운 구조를 만들 수 있습니다.
 
-강의 폴더에서는 다음 파일들이 이 주제에 해당합니다.
+강의 폴더에서는 다음 실습들이 이 주제에 해당합니다.
 
-```text
-24.langchain_20250424_05_dict_graph.py
-25.langchain_20250428_01_graph.py
-25.langchain_20250428_02_graph.py
-26.langchain_20250429_01.py
-26.langchain_20250429_02.py
-26.langchain_20250429_03.py
-26.langchain_20250429_04.py
-50_automation_20250520_02_LangGraph.py
-```
+- 딕셔너리로 상태를 전달하는 기본 그래프
+- LangGraph 노드와 엣지 구성
+- StateGraph 상태 관리
+- 조건 분기와 단계별 실행
+- 그래프 실행 결과 확인
+- 유튜브 자막 번역과 요약 자동화
 
 ## 그래프 구조란?
 

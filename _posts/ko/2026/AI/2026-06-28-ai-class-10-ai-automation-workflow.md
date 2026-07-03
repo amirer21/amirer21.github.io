@@ -41,24 +41,20 @@ AI 자동화는 반복적인 업무 흐름에 AI 모델을 연결하는 작업�
 - PDF와 Excel 요약
 - 마우스와 키보드 자동 조작
 
-강의 폴더에서는 다음 파일들이 이 주제에 해당합니다.
+강의 폴더에서는 다음 실습들이 이 주제에 해당합니다.
 
-```text
-50_automation_20250520_01_youtube.py
-50_automation_20250520_01_youtube_voice.py
-50_automation_20250520_02_LangGraph.py
-50_automation_20250520_03_email_01.py
-50_automation_20250520_03_email_02_sendtext.py
-50_automation_20250520_03_email_03_sendfile.py
-50_automation_20250520_04_pyautoui_01.py
-50_automation_20250520_04_pyautoui_02.py
-50_automation_20250520_05_summary_01_mp3_ppt.py
-50_automation_20250520_05_summary_02_pdf_excel_01.py
-50_automation_20250520_05_summary_02_pdf_excel_02.py
-50_automation_20250521_01_email.py
-50_automation_20250521_02_ocr.py
-50_automation_20250907_01_youtube.py
-```
+- 유튜브 자막 추출과 요약
+- 유튜브 음성 처리
+- LangGraph 기반 자동화 워크플로
+- 이메일 계정 연결과 기본 발송
+- 텍스트 이메일 발송
+- 첨부 파일 이메일 발송
+- 마우스와 키보드 자동 조작
+- MP3와 PPT 요약
+- PDF와 Excel 문서 요약
+- 이메일 자동화 확장
+- OCR로 이미지 문자 추출
+- 유튜브 요약 자동화 개선
 
 ## 자동화의 기본 구조
 

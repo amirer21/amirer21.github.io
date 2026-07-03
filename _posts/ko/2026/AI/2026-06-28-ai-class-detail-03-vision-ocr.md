@@ -27,13 +27,11 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # 이미지 설명과 OCR
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-12_multi_modal_image_description_20250410_01.py
-12_multi_modal_image_description_20250410_02.py
-12_multi_modal_image_text_extract_20250410_03.py
-```
+- 이미지를 보고 설명을 생성하는 비전 모델
+- 이미지 URL과 로컬 이미지 입력 비교
+- 이미지 안의 글자를 추출하는 OCR
 
 12번 실습은 AI가 이미지를 보고 텍스트로 설명하거나, 이미지 안의 글자를 추출하는 내용입니다.
 

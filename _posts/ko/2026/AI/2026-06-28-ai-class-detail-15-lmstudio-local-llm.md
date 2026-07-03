@@ -27,13 +27,11 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # LM Studio와 로컬 LLM
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-46_huggingface_lmstudio_01.py
-46_lmstudio_20250515_01.py
-46_lmstudio_20250515_02.py
-```
+- Hugging Face 임베딩과 LM Studio 로컬 LLM 비교
+- LangChain과 LM Studio를 연결한 로컬 LLM 스트리밍
+- Streamlit과 LM Studio로 만드는 실시간 답변 UI
 
 46번 실습은 OpenAI 같은 외부 API뿐 아니라 로컬에서 LLM을 실행하는 방법과 연결됩니다.
 

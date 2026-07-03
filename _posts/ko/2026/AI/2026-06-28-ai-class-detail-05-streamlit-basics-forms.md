@@ -27,17 +27,13 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # Streamlit 기초와 입력 폼
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-14_streamlit_20250415_01.py
-14_streamlit_20250415_02_markdown.py
-14_streamlit_20250415_03_form.py
-14_streamlit_20250415_04_form.py
-14_streamlit_20250415_05_form.py
-14_streamlit_chatgpt_과제_홍성학_0415_02.py
-14_과제_홍성학_0415.py
-```
+- Streamlit 기본 화면 출력
+- Markdown으로 텍스트와 서식 표현
+- 입력 폼 구성
+- 버튼 클릭과 제출 처리
+- 간단한 과제형 웹앱 만들기
 
 14번 실습은 Streamlit을 처음 배우는 단계입니다.
 Python 코드만으로 웹 화면을 만들고, 사용자의 입력을 받는 방법을 익힙니다.

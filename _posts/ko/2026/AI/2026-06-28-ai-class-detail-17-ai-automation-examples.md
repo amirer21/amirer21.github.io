@@ -28,24 +28,20 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # 유튜브, 이메일, OCR, 문서 요약 자동화
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-50_automation_20250520_01_youtube.py
-50_automation_20250520_01_youtube_voice.py
-50_automation_20250520_02_LangGraph.py
-50_automation_20250520_03_email_01.py
-50_automation_20250520_03_email_02_sendtext.py
-50_automation_20250520_03_email_03_sendfile.py
-50_automation_20250520_04_pyautoui_01.py
-50_automation_20250520_04_pyautoui_02.py
-50_automation_20250520_05_summary_01_mp3_ppt.py
-50_automation_20250520_05_summary_02_pdf_excel_01.py
-50_automation_20250520_05_summary_02_pdf_excel_02.py
-50_automation_20250521_01_email.py
-50_automation_20250521_02_ocr.py
-50_automation_20250907_01_youtube.py
-```
+- 유튜브 자막 추출과 요약
+- 유튜브 음성 처리
+- LangGraph 기반 자동화 워크플로
+- 이메일 계정 연결과 기본 발송
+- 텍스트 이메일 발송
+- 첨부 파일 이메일 발송
+- 마우스와 키보드 자동 조작
+- MP3와 PPT 요약
+- PDF와 Excel 문서 요약
+- 이메일 자동화 확장
+- OCR로 이미지 문자 추출
+- 유튜브 요약 자동화 개선
 
 50번 실습은 앞에서 배운 내용을 실제 업무 자동화로 연결합니다.
 

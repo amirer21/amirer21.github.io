@@ -27,14 +27,12 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # LangChain Prompt, Parser, Chain
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-20_langchain_20250422_01_langchain_PromptTemplate.py
-20_langchain_20250422_02_langchain_XMLOutputParser.py
-20_langchain_20250422_03_langchain_chain.py
-20_langchain_20250422_04_llm.py
-```
+- PromptTemplate으로 프롬프트 틀 만들기
+- OutputParser로 응답 구조화
+- Prompt, LLM, Parser를 Chain으로 연결
+- LangChain LLM 호출 기초
 
 20번 실습은 LangChain의 기본 부품을 다룹니다.
 

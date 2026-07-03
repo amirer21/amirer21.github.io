@@ -28,15 +28,13 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # 웹 문서 검색, 리랭킹, Wikipedia Agent
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-27.langchain_20250430_01.py
-27.langchain_20250430_02_web_doc_summary_retrieval.py
-27.langchain_20250430_03_rerank.py
-27.langchain_20250430_04_agent_wikipedia.py
-27일차풀이김태원.py
-```
+- 웹 문서 로딩과 요약
+- 웹 문서 기반 검색
+- 검색 결과 리랭킹
+- Wikipedia 도구를 사용하는 Agent
+- 웹 검색 흐름 복습
 
 27번 실습은 문서가 로컬 PDF에만 있지 않고, 웹 문서나 외부 지식 도구로 확장되는 단계입니다.
 
