@@ -32,24 +32,17 @@ Streamlit은 Python 코드만으로 간단한 웹앱을 만들 수 있게 해 �
 일반적인 웹 개발은 HTML, CSS, JavaScript, 서버 프레임워크를 함께 알아야 합니다.
 하지만 Streamlit은 Python 문법만으로 입력창, 버튼, 파일 업로드, 그래프, 챗봇 화면을 만들 수 있습니다.
 
-강의 폴더에서는 다음 파일들이 Streamlit 실습에 해당합니다.
+강의 폴더에서는 다음 실습들이 Streamlit 주제에 해당합니다.
 
-```text
-14_streamlit_20250415_01.py
-14_streamlit_20250415_02_markdown.py
-14_streamlit_20250415_03_form.py
-14_streamlit_20250415_04_form.py
-14_streamlit_20250415_05_form.py
-15_streamlit_20250416_01_file.py
-15_streamlit_20250416_02_tab.py
-15_streamlit_20250416_03_sidebar.py
-15_streamlit_20250416_04_sidebar.py
-16_streamlit_20250417_01_file_upload.py
-16_streamlit_20250417_03.py
-16_streamlit_20250417_07_img_db.py
-21_streamlit_20250423_04_ChatBot_session.py
-22_streamlit_20250424_03_ChatBot_streamlit_chat_module.py
-```
+- Streamlit 기본 화면 출력
+- Markdown과 텍스트 표시
+- 입력 폼과 버튼 처리
+- 파일 업로드
+- 탭과 사이드바 구성
+- 사용자 입력값 저장
+- 이미지와 SQLite DB 저장
+- 챗봇 세션 관리
+- Streamlit 채팅 UI 구성
 
 ## 설치와 실행
 

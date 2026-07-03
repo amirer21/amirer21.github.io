@@ -31,24 +31,20 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 Hugging Face는 AI 모델과 데이터셋을 공유하고 사용할 수 있는 플랫폼입니다.
 OpenAI API처럼 서버에 요청하는 방식도 있지만, Hugging Face에서는 모델을 내려받아 내 컴퓨터나 서버에서 실행하는 경우도 많습니다.
 
-강의 폴더에서는 다음 파일들이 이 주제에 해당합니다.
+강의 폴더에서는 다음 실습들이 이 주제에 해당합니다.
 
-```text
-43.langchain_huggingface_01_model.py
-43.langchain_huggingface_02_korean_sentiment.py
-44.huggingface_01_model.py
-44.huggingface_02_multi_modal.py
-45.huggingface_01_img_object.py
-45.huggingface_02_img_object.py
-45.huggingface_03_img_object.py
-46_huggingface_lmstudio_01.py
-46_lmstudio_20250515_01.py
-46_lmstudio_20250515_02.py
-47_finetunning_20250515_01_generate_and_finetune.py
-47_finetunning_20250519_01_test_pipeline.py
-48_finetunning_20250519_lora_01.py_실행하진말것
-49.lora_image_20250520.ipynb
-```
+- Hugging Face 모델 호출 기초
+- 한국어 감성 분석
+- transformers pipeline 사용
+- 이미지 설명과 음성 인식 모델 사용
+- 이미지 분류와 객체 탐지
+- Hugging Face 임베딩과 LM Studio 비교
+- LM Studio 로컬 LLM 스트리밍
+- Streamlit과 LM Studio를 연결한 실시간 답변 UI
+- 파인튜닝 데이터 생성과 학습 요청
+- 파인튜닝 모델 테스트
+- LoRA 기반 경량 파인튜닝 개념
+- 이미지 모델 LoRA 실습
 
 ## transformers pipeline
 

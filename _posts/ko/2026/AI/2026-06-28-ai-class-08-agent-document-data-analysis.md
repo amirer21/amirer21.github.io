@@ -46,18 +46,15 @@ CCTV 소계가 가장 많은 구는 어디인가요?
 -> 사용자에게 자연어로 답변
 ```
 
-강의 폴더에서는 다음 파일들이 이 주제에 해당합니다.
+강의 폴더에서는 다음 실습들이 이 주제에 해당합니다.
 
-```text
-27.langchain_20250430_04_agent_wikipedia.py
-28.langchaing_Agent_20250507_01.py
-28.langchaing_Agent_20250507_02_dataframe.py
-31.langchain_pandas_20250508_01_vs_agent.py
-31.langchain_pandas_20250508_02_platform.py
-31.langchain_pandas_20250508_03_streamlit.py
-31.langchain_pandas_20250508_04_ImageCaptionLoader.py
-38_timeAgent.py
-```
+- Wikipedia 도구를 사용하는 Agent
+- LangChain Agent 기본 구조
+- DataFrame을 자연어로 분석하는 Agent
+- Pandas 직접 분석과 Agent 분석 비교
+- 데이터 분석 결과를 웹 화면에 표시
+- 이미지 캡션 로더 활용
+- 시간 관련 도구를 사용하는 Agent
 
 ## Chain과 Agent의 차이
 

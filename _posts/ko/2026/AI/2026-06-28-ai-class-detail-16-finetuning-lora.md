@@ -27,13 +27,11 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # 파인튜닝과 LoRA
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-47_finetunning_20250515_01_generate_and_finetune.py
-47_finetunning_20250519_01_test_pipeline.py
-48_finetunning_20250519_lora_01.py_실행하진말것
-```
+- 파인튜닝 학습 데이터 생성
+- 파인튜닝 모델 테스트
+- LoRA 기반 경량 파인튜닝 개념
 
 파인튜닝은 기존 모델을 특정 목적에 맞게 추가 학습시키는 작업입니다.
 

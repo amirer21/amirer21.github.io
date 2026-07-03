@@ -27,19 +27,15 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # 대화형 챗봇과 Streamlit Chat UI
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-21_langchain_20250423_03_ConversationChain.py
-21_langchain_20250423_03_ConversationChain_NewVer.py
-21_streamlit_20250423_04_ChatBot.py
-21_streamlit_20250423_04_ChatBot_container.py
-21_streamlit_20250423_04_ChatBot_session.py
-22_streamlit_20250424_01.py
-22_streamlit_20250424_02_ChatBot_container.py
-22_streamlit_20250424_03_ChatBot_streamlit_chat_module.py
-24.langchain_20250424_04_stream_chat.py
-```
+- ConversationChain으로 대화 기록 유지
+- 최신 LangChain 방식의 대화 체인
+- Streamlit 챗봇 기본 UI
+- 컨테이너를 활용한 답변 출력
+- session_state로 대화 기록 저장
+- Streamlit 채팅 컴포넌트 활용
+- 토큰 단위 스트리밍 채팅
 
 이 실습은 한 번 묻고 끝나는 AI가 아니라, 대화 기록을 유지하는 챗봇을 만드는 내용입니다.
 

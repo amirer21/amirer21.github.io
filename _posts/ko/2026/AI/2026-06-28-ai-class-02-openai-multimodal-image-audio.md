@@ -33,17 +33,14 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 사람은 글을 읽고, 그림을 보고, 말을 듣고, 사진 속 글자를 이해합니다.
 멀티모달 AI도 비슷한 방향으로 발전하고 있습니다.
 
-강의 폴더의 다음 파일들이 이 주제에 해당합니다.
+강의 폴더의 다음 실습들이 이 주제에 해당합니다.
 
-```text
-09_multi_modal_image.py
-09_multi_modal_tts.py
-10_multi_modal_edit_image.py
-10_multi_modal_record.py
-12_multi_modal_image_description_20250410_01.py
-12_multi_modal_image_description_20250410_02.py
-12_multi_modal_image_text_extract_20250410_03.py
-```
+- 텍스트 프롬프트 기반 이미지 생성
+- 텍스트를 음성으로 바꾸는 TTS
+- 기존 이미지를 수정하는 이미지 편집
+- 마이크 입력을 받는 음성 녹음
+- 이미지를 보고 설명을 생성하는 비전 모델
+- 이미지 안의 글자를 읽는 OCR
 
 ## 전체 흐름
 

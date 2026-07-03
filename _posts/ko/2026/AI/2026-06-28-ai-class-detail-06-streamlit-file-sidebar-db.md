@@ -27,21 +27,15 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # Streamlit 파일 업로드, 탭, 사이드바, DB 저장
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-15_streamlit_20250416_01_file.py
-15_streamlit_20250416_02_tab.py
-15_streamlit_20250416_03_sidebar.py
-15_streamlit_20250416_04_sidebar.py
-16_streamlit_20250417_01_file_upload.py
-16_streamlit_20250417_02.py
-16_streamlit_20250417_03.py
-16_streamlit_20250417_04_pandas.py
-16_streamlit_20250417_05.py
-16_streamlit_20250417_06_routing.py
-16_streamlit_20250417_07_img_db.py
-```
+- 파일 업로드와 파일 정보 확인
+- 탭 UI 구성
+- 사이드바 메뉴 구성
+- 입력 폼과 데이터 저장
+- Pandas 데이터 표시
+- 페이지 라우팅 기초
+- 이미지 업로드와 SQLite DB 저장
 
 15-16번 실습은 Streamlit 앱을 실제 서비스에 가깝게 만드는 내용입니다.
 

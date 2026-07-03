@@ -27,19 +27,14 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # LangGraph 그래프와 상태 관리
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-24.langchain_20250424_05_dict_graph.py
-24.python_dict.py
-25.langchain_20250428_01_graph.py
-25.langchain_20250428_02_graph.py
-26.langchain_20250429_01.py
-26.langchain_20250429_02.py
-26.langchain_20250429_03.py
-26.langchain_20250429_04.py
-26일차풀이.py
-```
+- Python 딕셔너리로 상태 다루기
+- 딕셔너리 기반 그래프 흐름 이해
+- LangGraph 노드와 엣지 구성
+- StateGraph 상태 정의
+- 조건 분기와 단계별 실행
+- 그래프 실행 결과 확인
 
 LangGraph는 여러 단계를 노드와 엣지로 연결해 AI 워크플로를 만드는 도구입니다.
 

@@ -42,18 +42,15 @@ OpenAI API만 사용해도 AI에게 질문하고 답을 받을 수 있습니다.
 이런 작업은 여러 단계를 연결해야 합니다.
 LangChain은 이런 LLM 작업 흐름을 쉽게 구성하도록 도와주는 Python 라이브러리입니다.
 
-강의 폴더에서는 다음 파일들이 이 주제에 해당합니다.
+강의 폴더에서는 다음 실습들이 이 주제에 해당합니다.
 
-```text
-20_langchain_20250422_01_langchain_PromptTemplate.py
-20_langchain_20250422_02_langchain_XMLOutputParser.py
-20_langchain_20250422_03_langchain_chain.py
-20_langchain_20250422_04_llm.py
-21_langchain_20250423_02_SequentialChain.py
-21_langchain_20250423_02_SequentialChain_NewVer.py
-21_langchain_20250423_03_ConversationChain_NewVer.py
-24.langchain_20250424_04_stream_chat.py
-```
+- PromptTemplate으로 프롬프트 재사용
+- OutputParser로 응답 형식 정리
+- Prompt, LLM, Parser를 Chain으로 연결
+- LangChain LLM 호출 기초
+- Sequential Chain으로 여러 단계 연결
+- 대화형 Chain과 메모리 흐름
+- 스트리밍 채팅 출력
 
 ## LangChain의 핵심 구성요소
 

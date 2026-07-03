@@ -27,18 +27,15 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # DataFrame Agent와 Pandas 분석
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-28.langchaing_Agent_20250507_01.py
-28.langchaing_Agent_20250507_02_dataframe.py
-31.langchain_pandas_20250508_01_vs_agent.py
-31.langchain_pandas_20250508_02_platform.py
-31.langchain_pandas_20250508_03_streamlit.py
-31.langchain_pandas_20250508_04_ImageCaptionLoader.py
-31일차풀이(김태원).py
-38_timeAgent.py
-```
+- LangChain Agent 기본 구조
+- DataFrame Agent로 표 데이터 분석
+- Pandas 직접 분석과 Agent 분석 비교
+- 데이터 분석 플랫폼 형태로 확장
+- Streamlit 데이터 분석 UI
+- 이미지 캡션 로더 활용
+- 시간 도구 Agent 실습
 
 이 실습은 CSV나 DataFrame을 AI가 자연어 질문으로 분석하게 만드는 내용입니다.
 

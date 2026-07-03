@@ -26,14 +26,12 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # Function Calling과 도구 호출
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-13_multi_modal_call_function_20250414_01.py
-13_multi_modal_call_function_20250414_02.py
-13.multi_modal_call_function_20250414_03_subject.py
-13.multi_modal_call_function_20250414_04_subject_multi.py
-```
+- Function Calling 기본 구조
+- 함수 스키마 작성과 모델 호출
+- 단일 도구 선택 실습
+- 여러 도구 중 필요한 함수 선택 실습
 
 13번 실습의 핵심은 AI에게 단순 답변을 시키는 것이 아니라, 필요한 함수를 고르게 만드는 것입니다.
 

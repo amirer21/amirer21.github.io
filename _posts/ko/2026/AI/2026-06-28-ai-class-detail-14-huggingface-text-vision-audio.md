@@ -28,17 +28,14 @@ last_modified_at: '2026-06-28 21:00:00 +0900'
 
 # Hugging Face 텍스트, 이미지, 음성 모델
 
-이 글은 다음 원본 실습 파일을 기준으로 정리합니다.
+이 글은 다음 실습 주제를 기준으로 정리합니다.
 
-```text
-43.langchain_huggingface_01_model.py
-43.langchain_huggingface_02_korean_sentiment.py
-44.huggingface_01_model.py
-44.huggingface_02_multi_modal.py
-45.huggingface_01_img_object.py
-45.huggingface_02_img_object.py
-45.huggingface_03_img_object.py
-```
+- Hugging Face 모델 호출 기초
+- 한국어 감성 분석
+- transformers pipeline 사용
+- 이미지 설명과 음성 인식 모델
+- 이미지 분류
+- 객체 탐지와 YOLO 흐름
 
 Hugging Face는 다양한 AI 모델을 쉽게 내려받아 사용할 수 있는 생태계입니다.
 

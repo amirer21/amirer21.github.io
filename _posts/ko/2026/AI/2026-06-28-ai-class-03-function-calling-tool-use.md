@@ -48,14 +48,12 @@ AI가 그냥 추측해서 답하면 위험합니다.
 
 그 다음 Python 코드가 실제 함수를 실행하고 결과를 다시 AI에게 전달합니다.
 
-강의 폴더에서는 다음 파일들이 이 흐름에 해당합니다.
+강의 폴더에서는 다음 실습들이 이 흐름에 해당합니다.
 
-```text
-13_multi_modal_call_function_20250414_01.py
-13_multi_modal_call_function_20250414_02.py
-13.multi_modal_call_function_20250414_03_subject.py
-13.multi_modal_call_function_20250414_04_subject_multi.py
-```
+- OpenAI Function Calling 기본 구조
+- 사용자 질문에 맞는 함수 선택
+- 단일 도구 호출 실습
+- 여러 도구 중 필요한 도구를 고르는 실습
 
 ## 왜 필요한가?
 
