@@ -1,0 +1,34 @@
+{% assign message_flow_posts = site.posts | where: "series", "message-flow-lab" | sort: "series_order" %}
+{% assign message_flow_previous_order = page.series_order | minus: 1 %}
+{% assign message_flow_next_order = page.series_order | plus: 1 %}
+<nav class="message-flow-lab-series" aria-label="MessageFlow Lab 시리즈">
+  {% unless include.compact %}
+  <details>
+    <summary><strong>MessageFlow Lab 시리즈 전체 목차 (00–13)</strong></summary>
+    <ol start="0">
+      {% for series_post in message_flow_posts %}
+      <li>
+        {% if series_post.series_order == page.series_order %}
+        <strong aria-current="page">{{ series_post.title | escape }}</strong>
+        {% else %}
+        <a href="{{ series_post.url | relative_url }}">{{ series_post.title | escape }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+  {% endunless %}
+  <p>
+    {% for series_post in message_flow_posts %}
+      {% if series_post.series_order == message_flow_previous_order %}
+      <a href="{{ series_post.url | relative_url }}">← 이전 글: {{ series_post.title | escape }}</a><br>
+      {% endif %}
+      {% if series_post.series_order == message_flow_next_order %}
+      <a href="{{ series_post.url | relative_url }}">다음 글: {{ series_post.title | escape }} →</a><br>
+      {% endif %}
+      {% if include.compact and series_post.series_order == 0 %}
+      <a href="{{ series_post.url | relative_url }}">시리즈 소개와 전체 목차</a><br>
+      {% endif %}
+    {% endfor %}
+  </p>
+</nav>
